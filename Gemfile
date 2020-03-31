@@ -9,12 +9,6 @@ ruby "2.6.5"
 gem "rails", "~> 5.2.3"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 2.5"
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.1.0", require: false
 
@@ -22,6 +16,8 @@ group :development, :test do
   gem "bixby"
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: %i[mri mingw x64_mingw]
+  gem "pry-byebug"
+  gem "pry-rails"
   gem "rspec-rails", "~> 3.8"
 end
 
