@@ -1,7 +1,7 @@
 defaults: &defaults
   token: <%= ENV["TOKEN"] %>
-  token_url: "orcid.org/oauth/token"
-  api_url: "pub.orcid.org"
+  token_base_url: "orcid.org"
+  api_base_url: "pub.orcid.org"
   api_version: "3.0"
 test:
   <<: *defaults

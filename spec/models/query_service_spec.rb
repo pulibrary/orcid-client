@@ -5,6 +5,8 @@ RSpec.describe QueryService do
   let(:qs) { described_class.new }
 
   before do
+    allow(ENV).to receive(:[]).and_call_original
+    allow(ENV).to receive(:[]).with("TOKEN").and_return("123456a")
     # use webmock to mock the token request and the search queries
   end
 
@@ -17,7 +19,6 @@ RSpec.describe QueryService do
   describe "#token" do
     context "with a TOKEN environment variable" do
       it "returns that value" do
-        allow(ENV).to receive(:[]).with("TOKEN").and_return("123456a")
         expect(qs.token).to eq "123456a"
       end
     end
