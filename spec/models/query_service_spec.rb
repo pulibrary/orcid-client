@@ -13,8 +13,7 @@ RSpec.describe QueryService do
   # private methods
   describe "url builder" do
     it "forms url as expected by the service" do
-      expect(qs.build_url(fields: { "affiliation-org-name" => "Princeton University" }).to_s).to eq "https://api.orcid.org/v3.0/search/?q=affiliation-org-name:(%22Princeton%20University%22)"
+      expect(qs.build_url(fields: { "affiliation-org-name" => "Princeton University" }).to_s).to eq "https://pub.orcid.org/v3.0/search/?q=affiliation-org-name:(%22Princeton%20University%22)"
     end
   end
-
 end

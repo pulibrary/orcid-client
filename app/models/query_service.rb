@@ -1,9 +1,12 @@
 # frozen_string_literal: true
 
 class QueryService
-  def initialize(base_url: "api.orcid.org", api_version: "3.0")
+  # We'll eventually need to use api.orcid.org, but for we're not currently
+  # authorized.
+  def initialize(base_url: "pub.orcid.org", api_version: "3.0")
     @base_url = base_url
     @api_version = api_version
+    @token = ENV["TOKEN"]
   end
 
   def search_institution(value)
@@ -17,7 +20,7 @@ class QueryService
       req = Net::HTTP::Get.new(url)
       req["Content-type"] = "application/vnd.orcid+json"
       req["Authorization type"] = "Bearer"
-      req["Access token"] = ""
+      req["Access token"] = @token
 
       result = http.request(req)
       binding.pry
