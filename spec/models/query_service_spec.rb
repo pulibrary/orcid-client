@@ -14,6 +14,15 @@ RSpec.describe QueryService do
     end
   end
 
+  describe "#token" do
+    context "with a TOKEN environment variable" do
+      it "returns that value" do
+        allow(ENV).to receive(:[]).with("TOKEN").and_return("123456a")
+        expect(qs.token).to eq "123456a"
+      end
+    end
+  end
+
   # private methods
   describe "url builder" do
     it "forms url as expected by the service" do

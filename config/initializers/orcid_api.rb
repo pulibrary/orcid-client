@@ -10,4 +10,5 @@ module OrcidApi
       YAML.safe_load(ERB.new(File.read(Rails.root.join("config", "orcid_api.yml"))).result, [], [], true)[Rails.env]
     end
 
+    module_function :config, :config_yaml
 end
