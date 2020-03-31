@@ -1,12 +1,11 @@
 # frozen_string_literal: true
 
 class QueryService
-  # We'll eventually need to use api.orcid.org, but for we're not currently
-  # authorized.
+  TOKEN_URL = "orcid.org/oauth/token"
+  attr_reader :token
   def initialize(base_url: "pub.orcid.org", api_version: "3.0")
     @base_url = base_url
     @api_version = api_version
-    @token = ENV["TOKEN"]
   end
 
   def search_institution(value)
@@ -15,12 +14,43 @@ class QueryService
     { name: [value] }
   end
 
+
+  # def token
+  #   @token ||= do
+  #     ENV.fetch(:token) || request_token
+  #   end
+  # end
+  #
+  # do a Net::HTTP request to fetch a token
+  def request_token
+      # https://orcid.org/oauth/token 
+      #   METHOD: POST
+      #     HEADER: accept:application/json
+      #       DATA: 
+      #             client_id=[Your client ID]
+      #           client_secret=[Your client secret]
+      #               grant_type=client_credentials
+      #                   scope=/read-public
+
+
+    Net::HTTP.start(url.host, url.port, use_ssl: true) do |http|
+      req = Net::HTTP::Get.new(url)
+      req["Content-type"] = "application/vnd.orcid+json"
+      req["Authorization type"] = "Bearer"
+      req["Access token"] = token
+
+      result = http.request(req)
+      binding.pry
+    end
+    result
+  end
+
   def request(url)
     Net::HTTP.start(url.host, url.port, use_ssl: true) do |http|
       req = Net::HTTP::Get.new(url)
       req["Content-type"] = "application/vnd.orcid+json"
       req["Authorization type"] = "Bearer"
-      req["Access token"] = @token
+      req["Access token"] = token
 
       result = http.request(req)
       binding.pry

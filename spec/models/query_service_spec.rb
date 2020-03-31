@@ -4,6 +4,10 @@ require "rails_helper"
 RSpec.describe QueryService do
   let(:qs) { described_class.new }
 
+  before do
+    # use webmock to mock the token request and the search queries
+  end
+
   describe "#search_institution" do
     it "accepts a string and returns a hash of result objects" do
       expect(qs.search_institution("Princeton University")).to eq(name: ["Eliot Jordan"], orcid: "12345-678")
