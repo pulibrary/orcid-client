@@ -1,17 +1,18 @@
-module OrcidApi
-  class AccessToken
+# frozen_string_literal: true
 
-    # do a Net::HTTP request to fetch a token
+module OrcidApi
+  # Service class to generate a new Orcid API token.
+  # Tokens are long lived, and should be set using the TOKEN env variable.
+  # Use this service if our credentials are changed or the token is lost.
+  class AccessToken
+    attr_reader :client_id, :client_secret
+    def initialize(client_id:, client_secret:)
+      @client_id = client_id
+      @client_secret = client_secret
+    end
+
     # Get a brand new token
-    def self.fetch(client_id:, client_secret:)
-      # https://orcid.org/oauth/token
-      #   METHOD: POST
-      #     HEADER: accept:application/json
-      #       DATA:
-      #             client_id=[Your client ID]
-      #           client_secret=[Your client secret]
-      #               grant_type=client_credentials
-      #                   scope=/read-public
+    def fetch
       Net::HTTP.start(url.host, url.port, use_ssl: true) do |http|
         req = Net::HTTP::Post.new(url)
         req["Accept"] = "application/json"
@@ -22,19 +23,19 @@ module OrcidApi
           "scope" => "/read-public"
         }
         req.set_form_data(data)
-
-        result = http.post(req)
+        body = http.request(req).body
+        JSON.parse(body)["access_token"]
       end
-      # result
     end
-  end
 
-  def url
-    @url ||= URI::HTTPS.build(host: token_base_url, path: "/oauth/token")
-  end
+    private
 
-  def token_base_url
-    OrcidApi.config[:token_base_url]
-  end
+      def token_base_url
+        OrcidApi.config[:token_base_url]
+      end
 
+      def url
+        @url ||= URI::HTTPS.build(host: token_base_url, path: "/oauth/token")
+      end
+  end
 end
