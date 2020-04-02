@@ -11,8 +11,20 @@ RSpec.describe QueryService do
   end
 
   describe "#search_institution" do
-    it "accepts a string and returns a hash of result objects" do
-      expect(qs.search_institution("Princeton University")).to eq(name: ["Eliot Jordan"], orcid: "12345-678")
+    let(:page1) { Rails.root.join("spec", "fixtures", "search_institution_rows_0-2.json") }
+    let(:page2) { Rails.root.join("spec", "fixtures", "search_institution_rows_3-5.json") }
+    before do
+      stub_request(:get, "https://pub.orcid.org/v3.0/search/?q=affiliation-org-name:(%22Princeton%20University%22)&rows=3&start=0")
+        .to_return(status: 200, body: page1, headers: {})
+      stub_request(:get, "https://pub.orcid.org/v3.0/search/?q=affiliation-org-name:(%22Princeton%20University%22)&rows=3&start=3")
+        .to_return(status: 200, body: page2, headers: {})
+    end
+
+    it "accepts a string and executes a search, navigating pagination, to return an array of orcid id hashes" do
+      results = qs.search_institution("Princeton University", rows: 3)
+      expect(results.count).to eq 6
+      expect(results.first["orcid-identifier"]).to be_a Hash
+      expect(results.first["orcid-identifier"].keys).to include("host", "path", "uri")
     end
   end
 
@@ -27,7 +39,8 @@ RSpec.describe QueryService do
   # private methods
   describe "url builder" do
     it "forms url as expected by the service" do
-      expect(qs.build_url(fields: { "affiliation-org-name" => "Princeton University" }).to_s).to eq "https://pub.orcid.org/v3.0/search/?q=affiliation-org-name:(%22Princeton%20University%22)"
+      fields = { "affiliation-org-name" => "Princeton University" }
+      expect(qs.build_url(fields: fields, start: 0, rows: 1000).to_s).to eq "https://pub.orcid.org/v3.0/search/?q=affiliation-org-name:(%22Princeton%20University%22)&start=0&rows=1000"
     end
   end
 end

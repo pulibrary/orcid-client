@@ -1,10 +1,21 @@
 # frozen_string_literal: true
 
 class QueryService
-  def search_institution(value)
-    url = build_url(fields: { "affiliation-org-name" => value })
-    result = request(url)
-    { name: [value] }
+  # rows is the number of rows to retrieve at a time;
+  #   adjust on tests to allow for smaller fixtures
+  def search_institution(value, rows: 1000)
+    fields = { "affiliation-org-name" => value }
+    results = []
+    start = 0
+    loop do
+      url = build_url(fields: fields, start: start, rows: rows)
+      result_body = request(url)
+      result_hash = JSON.parse(result_body)
+      results.concat(result_hash["result"])
+      start += rows
+      break if start >= result_hash["num-found"]
+    end
+    results
   end
 
   def request(url)
@@ -14,13 +25,13 @@ class QueryService
       req["Authorization type"] = "Bearer"
       req["Access token"] = token
 
-      result = http.request(req)
+      http.request(req).body
     end
-    result
   end
 
-  def build_url(fields: {})
-    URI::HTTPS.build(host: base_url, path: "/v#{api_version}/search/", query: "q=#{fielded_query(fields)}")
+  # Default to rows 0 through 999; second page should start with 1000
+  def build_url(fields: {}, start:, rows:)
+    URI::HTTPS.build(host: base_url, path: "/v#{api_version}/search/", query: "q=#{fielded_query(fields)}&start=#{start}&rows=#{rows}")
   end
 
   def fielded_query(fields)
