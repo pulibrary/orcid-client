@@ -4,6 +4,11 @@ inherit_gem:
 AllCops:
   DisplayCopNames: true
   TargetRubyVersion: 2.3
+  Exclude:
+  - 'lib/swagger_client.rb'
+  - 'lib/swagger_client/**/*'
+  - 'spec/lib/swagger_client/**/*'
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 Style/IfUnlessModifier:
