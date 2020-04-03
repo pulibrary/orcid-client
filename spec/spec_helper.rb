@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require "swagger_client"
 require "webmock/rspec"
 
 RSpec.configure do |config|
