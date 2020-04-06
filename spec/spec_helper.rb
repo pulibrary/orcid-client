@@ -1,5 +1,11 @@
 # frozen_string_literal: true
+require "simplecov"
+require "swagger_client"
 require "webmock/rspec"
+
+SimpleCov.start do
+  add_group "OrcidAPI", "lib"
+end
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
