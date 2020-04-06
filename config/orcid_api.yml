@@ -1,0 +1,14 @@
+defaults: &defaults
+  token: <%= ENV["TOKEN"] %>
+  token_base_url: "orcid.org"
+  api_url: "pub.orcid.org"
+  api_version: "3.0"
+test:
+  <<: *defaults
+development:
+  <<: *defaults
+production:
+  <<: *defaults
+  api_url: "api.orcid.org"
+staging:
+  <<: *defaults
