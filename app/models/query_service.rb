@@ -1,18 +1,23 @@
 # frozen_string_literal: true
 
 class QueryService
-  # rows is the number of rows to retrieve at a time;
+  attr_reader :page_size
+  # page_size: the number of rows to retrieve at a time;
   #   adjust on tests to allow for smaller fixtures
-  def search_institution(value, rows: 1000)
+  def initialize(page_size: 1000)
+    @page_size = page_size
+  end
+
+  def search_institution(value)
     fields = { "affiliation-org-name" => value }
     results = []
     start = 0
     loop do
-      url = build_url(fields: fields, start: start, rows: rows)
+      url = build_url(fields: fields, start: start, rows: page_size)
       result_body = request(url)
       result_hash = JSON.parse(result_body)
       results.concat(result_hash["result"])
-      start += rows
+      start += page_size
       break if start >= result_hash["num-found"]
     end
     results
@@ -29,7 +34,6 @@ class QueryService
     end
   end
 
-  # Default to rows 0 through 999; second page should start with 1000
   def build_url(fields: {}, start:, rows:)
     URI::HTTPS.build(host: base_url, path: "/v#{api_version}/search/", query: "q=#{fielded_query(fields)}&start=#{start}&rows=#{rows}")
   end

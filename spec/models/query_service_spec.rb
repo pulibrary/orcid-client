@@ -2,7 +2,7 @@
 require "rails_helper"
 
 RSpec.describe QueryService do
-  let(:qs) { described_class.new }
+  let(:qs) { described_class.new(page_size: 3) }
 
   before do
     allow(ENV).to receive(:[]).and_call_original
@@ -21,7 +21,7 @@ RSpec.describe QueryService do
     end
 
     it "accepts a string and executes a search, navigating pagination, to return an array of orcid id hashes" do
-      results = qs.search_institution("Princeton University", rows: 3)
+      results = qs.search_institution("Princeton University")
       expect(results.count).to eq 6
       expect(results.first["orcid-identifier"]).to be_a Hash
       expect(results.first["orcid-identifier"].keys).to include("host", "path", "uri")
