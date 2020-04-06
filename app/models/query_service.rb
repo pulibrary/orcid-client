@@ -9,50 +9,33 @@ class QueryService
   end
 
   def search_institution(value)
-    fields = { "affiliation-org-name" => value }
+    fielded_search("affiliation-org-name" => value)
+  end
+
+  def fielded_search(fields)
     results = []
     start = 0
+    api_instance = SwaggerClient::DevelopmentMemberAPIV30Api.new
+
     loop do
-      url = build_url(fields: fields, start: start, rows: page_size)
-      result_body = request(url)
-      result_hash = JSON.parse(result_body)
-      results.concat(result_hash["result"])
+      opts = {
+        q: fielded_query(fields),
+        rows: page_size,
+        start: start
+      }
+
+      # Search records
+      result = api_instance.search_by_queryv3(opts)
+      results.push(*result.result)
       start += page_size
-      break if start >= result_hash["num-found"]
+      break if start >= result.num_found
     end
     results
-  end
-
-  def request(url)
-    Net::HTTP.start(url.host, url.port, use_ssl: true) do |http|
-      req = Net::HTTP::Get.new(url)
-      req["Content-type"] = "application/vnd.orcid+json"
-      req["Authorization type"] = "Bearer"
-      req["Access token"] = token
-
-      http.request(req).body
-    end
-  end
-
-  def build_url(fields: {}, start:, rows:)
-    URI::HTTPS.build(host: base_url, path: "/v#{api_version}/search/", query: "q=#{fielded_query(fields)}&start=#{start}&rows=#{rows}")
   end
 
   def fielded_query(fields)
     fields.to_a.map do |tuple|
       "#{tuple.first}:(\"#{tuple.last}\")"
     end.join("+AND+")
-  end
-
-  def token
-    OrcidApi.config[:token]
-  end
-
-  def base_url
-    OrcidApi.config[:api_url]
-  end
-
-  def api_version
-    OrcidApi.config[:api_version]
   end
 end
