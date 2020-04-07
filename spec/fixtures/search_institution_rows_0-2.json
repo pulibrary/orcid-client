@@ -1,0 +1,26 @@
+{
+    "num-found": 3,
+    "result": [
+        {
+            "orcid-identifier": {
+                "host": "orcid.org",
+                "path": "0000-0002-8471-7302",
+                "uri": "https://orcid.org/0000-0002-8471-7302"
+            }
+        },
+        {
+            "orcid-identifier": {
+                "host": "orcid.org",
+                "path": "0000-0001-8399-4378",
+                "uri": "https://orcid.org/0000-0001-8399-4378"
+            }
+        },
+        {
+            "orcid-identifier": {
+                "host": "orcid.org",
+                "path": "0000-0002-6468-518X",
+                "uri": "https://orcid.org/0000-0002-6468-518X"
+            }
+        }
+    ]
+}
