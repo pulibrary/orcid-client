@@ -8,7 +8,11 @@ class QueryService
     @page_size = page_size
   end
 
-  def search_institution(value)
+  def search_institution
+
+  end
+
+  def search_affiliation(value)
     fielded_search("affiliation-org-name" => value)
   end
 

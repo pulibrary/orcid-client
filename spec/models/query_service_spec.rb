@@ -4,9 +4,15 @@ require "rails_helper"
 RSpec.describe QueryService do
   let(:qs) { described_class.new(page_size: 3) }
 
-  describe "#search_institution" do
-    let(:page1) { Rails.root.join("spec", "fixtures", "search_institution_rows_0-2.json") }
-    let(:page2) { Rails.root.join("spec", "fixtures", "search_institution_rows_3-5.json") }
+  before do
+    allow(ENV).to receive(:[]).and_call_original
+    allow(ENV).to receive(:[]).with("TOKEN").and_return("123456a")
+    # use webmock to mock the token request and the search queries
+  end
+
+  describe "#search_affiliation" do
+    let(:page1) { Rails.root.join("spec", "fixtures", "search_affiliation_rows_0-2.json") }
+    let(:page2) { Rails.root.join("spec", "fixtures", "search_affiliation_rows_3-5.json") }
 
     # stub headers here but not in general throughout all specs. We just want to
     # make sure we're validating the headers in at least one test.
@@ -34,7 +40,7 @@ RSpec.describe QueryService do
     end
 
     it "accepts a string and executes a search, navigating pagination, to return an array of orcid id hashes" do
-      results = qs.search_institution("Princeton University")
+      results = qs.search_affiliation("Princeton University")
       expect(results.count).to eq 6
       expect(results.first.orcid_identifier.path).to eq "0000-0003-4571-9046"
     end
