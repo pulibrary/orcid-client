@@ -12,6 +12,14 @@ class QueryService
     fielded_search("affiliation-org-name" => value)
   end
 
+  def search_grid(value)
+    fielded_search("grid-org-id" => value)
+  end
+
+  def search_ringgold(value)
+    fielded_search("ringgold-org-id" => value)
+  end
+
   def fielded_search(fields)
     results = []
     start = 0

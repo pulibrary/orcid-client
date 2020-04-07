@@ -1,0 +1,10 @@
+{
+  "result" : [ {
+    "orcid-identifier" : {
+      "uri" : "https://orcid.org/0000-0001-9693-1739",
+      "path" : "0000-0001-9693-1739",
+      "host" : "orcid.org"
+    }
+  } ],
+  "num-found" : 4
+}
