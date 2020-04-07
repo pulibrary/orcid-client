@@ -1,22 +1,26 @@
 {
-  "result" : [ {
-    "orcid-identifier" : {
-      "uri" : "https://orcid.org/0000-0003-4571-9046",
-      "path" : "0000-0003-4571-9046",
-      "host" : "orcid.org"
-    }
-  }, {
-    "orcid-identifier" : {
-      "uri" : "https://orcid.org/0000-0001-7864-0364",
-      "path" : "0000-0001-7864-0364",
-      "host" : "orcid.org"
-    }
-  }, {
-    "orcid-identifier" : {
-      "uri" : "https://orcid.org/0000-0003-0161-5915",
-      "path" : "0000-0003-0161-5915",
-      "host" : "orcid.org"
-    }
-  } ],
-  "num-found" : 6
+    "num-found": 3,
+    "result": [
+        {
+            "orcid-identifier": {
+                "host": "orcid.org",
+                "path": "0000-0002-8471-7302",
+                "uri": "https://orcid.org/0000-0002-8471-7302"
+            }
+        },
+        {
+            "orcid-identifier": {
+                "host": "orcid.org",
+                "path": "0000-0001-8399-4378",
+                "uri": "https://orcid.org/0000-0001-8399-4378"
+            }
+        },
+        {
+            "orcid-identifier": {
+                "host": "orcid.org",
+                "path": "0000-0002-6468-518X",
+                "uri": "https://orcid.org/0000-0002-6468-518X"
+            }
+        }
+    ]
 }
