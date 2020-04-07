@@ -4,19 +4,32 @@ require "rails_helper"
 RSpec.describe QueryService do
   let(:qs) { described_class.new(page_size: 3) }
 
-  before do
-    allow(ENV).to receive(:[]).and_call_original
-    allow(ENV).to receive(:[]).with("TOKEN").and_return("123456a")
-    # use webmock to mock the token request and the search queries
-  end
-
   describe "#search_institution" do
     let(:page1) { Rails.root.join("spec", "fixtures", "search_institution_rows_0-2.json") }
     let(:page2) { Rails.root.join("spec", "fixtures", "search_institution_rows_3-5.json") }
+
+    # stub headers here but not in general throughout all specs. We just want to
+    # make sure we're validating the headers in at least one test.
     before do
       stub_request(:get, "https://pub.orcid.org/v3.0/search?q=affiliation-org-name:(%22Princeton%20University%22)&start=0&rows=3")
+        .with(
+          headers: {
+            "Accept" => "application/vnd.orcid+json; qs=4",
+            "Authorization type" => "Bearer",
+            "Access token" => "test_token",
+            "Content-Type" => "application/json"
+          }
+        )
         .to_return(status: 200, body: page1, headers: {})
       stub_request(:get, "https://pub.orcid.org/v3.0/search?q=affiliation-org-name:(%22Princeton%20University%22)&start=3&rows=3")
+        .with(
+          headers: {
+            "Accept" => "application/vnd.orcid+json; qs=4",
+            "Authorization type" => "Bearer",
+            "Access token" => "test_token",
+            "Content-Type" => "application/json"
+          }
+        )
         .to_return(status: 200, body: page2, headers: {})
     end
 
@@ -27,18 +40,15 @@ RSpec.describe QueryService do
     end
   end
 
-
-
-
   describe "#search_grid" do
     let(:page1) { Rails.root.join("spec", "fixtures", "search_grid_rows_0-2.json") }
     let(:page2) { Rails.root.join("spec", "fixtures", "search_grid_rows_3-4.json") }
 
     before do
-      stub_request(:get, "https://pub.orcid.org/v3.0/search?q=grid-org-id:(%22grid.16750.35%22)&rows=3&start=0").
-        to_return(status: 200, body: page1, headers: {})
-      stub_request(:get, "https://pub.orcid.org/v3.0/search?q=grid-org-id:(%22grid.16750.35%22)&rows=3&start=3").
-        to_return(status: 200, body: page2, headers: {})
+      stub_request(:get, "https://pub.orcid.org/v3.0/search?q=grid-org-id:(%22grid.16750.35%22)&rows=3&start=0")
+        .to_return(status: 200, body: page1, headers: {})
+      stub_request(:get, "https://pub.orcid.org/v3.0/search?q=grid-org-id:(%22grid.16750.35%22)&rows=3&start=3")
+        .to_return(status: 200, body: page2, headers: {})
     end
 
     it "accepts a string and executes a search, navigating pagination, to return an array of orcid id hashes" do
@@ -53,10 +63,10 @@ RSpec.describe QueryService do
     let(:page2) { Rails.root.join("spec", "fixtures", "search_ringgold_row_3.json") }
 
     before do
-      stub_request(:get, "https://pub.orcid.org/v3.0/search?q=ringgold-org-id:(%226740%22)&rows=3&start=0").
-        to_return(status: 200, body: page1, headers: {})
-      stub_request(:get, "https://pub.orcid.org/v3.0/search?q=ringgold-org-id:(%226740%22)&rows=3&start=3").
-        to_return(status: 200, body: page2, headers: {})
+      stub_request(:get, "https://pub.orcid.org/v3.0/search?q=ringgold-org-id:(%226740%22)&rows=3&start=0")
+        .to_return(status: 200, body: page1, headers: {})
+      stub_request(:get, "https://pub.orcid.org/v3.0/search?q=ringgold-org-id:(%226740%22)&rows=3&start=3")
+        .to_return(status: 200, body: page2, headers: {})
     end
 
     it "accepts a string and executes a search, navigating pagination, to return an array of orcid id hashes" do
@@ -65,5 +75,4 @@ RSpec.describe QueryService do
       expect(results.first.orcid_identifier.path).to eq "0000-0002-2525-2912"
     end
   end
-
 end
