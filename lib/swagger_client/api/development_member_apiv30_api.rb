@@ -2425,9 +2425,8 @@ module SwaggerClient
       # resource path
       local_var_path = '/v3.0/search'
 
-      # query parameters
-      query_params = {}
-      query_params[:'q'] = opts[:'q'] if !opts[:'q'].nil?
+      # Using all of the options as parameters
+      query_params = opts
 
       # header parameters
       header_params = {}
