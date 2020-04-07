@@ -5,6 +5,7 @@ defaults: &defaults
   api_version: "3.0"
 test:
   <<: *defaults
+  token: "test_token"
 development:
   <<: *defaults
 production:

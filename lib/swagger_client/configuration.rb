@@ -197,19 +197,29 @@ module SwaggerClient
     def auth_settings
       {
         'orcid_auth' =>
-          {
-            type: 'oauth2',
-            in: 'header',
-            key: 'Authorization',
-            value: "Bearer #{access_token}"
-          },
+          [
+            {
+              type: 'oauth2',
+              in: 'header',
+              key: 'Authorization',
+              value: "Bearer #{access_token}"
+            }
+          ],
         'orcid_two_legs' =>
-          {
-            type: 'oauth2',
-            in: 'header',
-            key: 'Authorization',
-            value: "Bearer #{access_token}"
-          },
+          [
+            {
+              type: 'oauth2',
+              in: 'header',
+              key: 'Authorization type',
+              value: "Bearer"
+            },
+            {
+              type: 'oauth2',
+              in: 'header',
+              key: 'Access token',
+              value: access_token
+            }
+          ]
       }
     end
   end

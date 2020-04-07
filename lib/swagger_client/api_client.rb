@@ -306,12 +306,14 @@ module SwaggerClient
     # @param [String] auth_names Authentication scheme name
     def update_params_for_auth!(header_params, query_params, auth_names)
       Array(auth_names).each do |auth_name|
-        auth_setting = @config.auth_settings[auth_name]
-        next unless auth_setting
-        case auth_setting[:in]
-        when 'header' then header_params[auth_setting[:key]] = auth_setting[:value]
-        when 'query'  then query_params[auth_setting[:key]] = auth_setting[:value]
-        else fail ArgumentError, 'Authentication token must be in `query` of `header`'
+        auth_settings = @config.auth_settings[auth_name]
+        auth_settings.each do |auth_setting|
+          next unless auth_setting
+          case auth_setting[:in]
+          when 'header' then header_params[auth_setting[:key]] = auth_setting[:value]
+          when 'query'  then query_params[auth_setting[:key]] = auth_setting[:value]
+          else fail ArgumentError, 'Authentication token must be in `query` of `header`'
+          end
         end
       end
     end
