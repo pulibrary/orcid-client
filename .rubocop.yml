@@ -16,3 +16,6 @@ Style/IfUnlessModifier:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
+Metrics/LineLength:
+  Exclude:
+    - 'spec/services/orcid_api/query_spec.rb'
