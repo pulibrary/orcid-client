@@ -4,5 +4,13 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require_relative "config/application"
+require "rubocop/rake_task" if Rails.env.development? || Rails.env.test?
 
 Rails.application.load_tasks
+
+if defined? RuboCop
+  desc "Run RuboCop style checker"
+  RuboCop::RakeTask.new(:rubocop) do |task|
+    task.fail_on_error = true
+  end
+end
