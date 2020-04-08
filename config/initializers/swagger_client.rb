@@ -3,5 +3,5 @@
 SwaggerClient.configure do |config|
   # Configure OAuth2 access token for authorization: orcid_two_legs
   config.access_token = OrcidApi.config[:token]
-  config.host = OrcidApi.config[:api_url]
+  config.host = OrcidApi.config[:api_base_url]
 end
