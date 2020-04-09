@@ -16,5 +16,15 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 
+  # Reset swagger client configuration before each spec
+  # (individual tests make changes and do not clean up after themselves)
+  config.before do
+    SwaggerClient.configure do |c|
+      c.access_token = "test_token"
+      c.base_path = "/"
+      c.host = "pub.orcid.org"
+    end
+  end
+
   config.shared_context_metadata_behavior = :apply_to_host_groups
 end

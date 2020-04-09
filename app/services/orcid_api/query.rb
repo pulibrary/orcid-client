@@ -51,10 +51,13 @@ module OrcidApi
 
     private
 
+      def api_instance
+        SwaggerClient::DevelopmentMemberAPIV30Api.new
+      end
+
       def fielded_search(fields)
         results = []
         start = 0
-        api_instance = SwaggerClient::DevelopmentMemberAPIV30Api.new
 
         loop do
           opts = {

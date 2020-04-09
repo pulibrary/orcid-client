@@ -1,0 +1,94 @@
+---
+version: 2
+jobs:
+  build:
+    working_directory: ~/orcid
+    docker:
+      - image: circleci/ruby:2.6.5-node-browsers
+        environment:
+          RAILS_ENV: test
+    steps:
+      - checkout
+      # Restore Cached Dependencies
+      - type: cache-restore
+        name: Restore bundle cache
+        key: orcid-{{ checksum "Gemfile.lock" }}
+      # Install Bundler
+      - run: gem install bundler -v '~> 2.0'
+      # Bundle install dependencies
+      - run: bundle install --path vendor/bundle
+      # Cache Dependencies
+      - type: cache-save
+        name: Store bundle cache
+        key: orcid-{{ checksum "Gemfile.lock" }}
+        paths:
+          - vendor/bundle
+      - persist_to_workspace:
+          root: '~/orcid'
+          paths: '*'
+  test:
+    working_directory: ~/orcid
+    docker:
+      - image: circleci/ruby:2.6.5-node-browsers
+        environment:
+          RAILS_ENV: test
+    steps:
+      - attach_workspace:
+          at: '~/orcid'
+      - run: gem install bundler -v '~> 2.0'
+      - run: bundle install --path vendor/bundle
+      - run: bundle exec rspec spec/
+      - run:
+          name: Stash Coverage Results
+          command: |
+            mkdir coverage_results
+            cp -R coverage/.resultset.json coverage_results/.resultset-${CIRCLE_NODE_INDEX}.json
+      - persist_to_workspace:
+          root: '~/orcid'
+          paths: 'coverage_results'
+      - store_artifacts:
+          path: coverage
+  coverage_report:
+    working_directory: ~/orcid
+    docker:
+      - image: circleci/ruby:2.6.5-node-browsers
+    steps:
+      - attach_workspace:
+          at: '~/orcid'
+      - run: gem install simplecov -v '~> 0.16.0'
+      - run: gem install activesupport -v 5.1.6.2
+      - run:
+          name: Merge and check coverage
+          command: |
+            RAILS_ENV=test ruby ./scripts/combine_coverage.rb
+      - store_artifacts:
+          path: ~/orcid/coverage
+          destination: coverage
+  rubocop:
+    working_directory: ~/orcid
+    docker:
+      - image: circleci/ruby:2.6.5-node-browsers
+        environment:
+          RAILS_ENV: test
+    steps:
+      - attach_workspace:
+          at: '~/orcid'
+      # Install Bundler
+      - run: gem install bundler -v '~> 2.0'
+      # Bundle install dependencies
+      - run: bundle install --path vendor/bundle
+      - run: bundle exec rake rubocop
+workflows:
+  version: 2
+  build_accept_deploy:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - rubocop:
+          requires:
+            - build
+      - coverage_report:
+          requires:
+            - test
