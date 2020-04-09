@@ -1,0 +1,358 @@
+{
+    "orcid-identifier": {
+        "uri": "https://orcid.org/0000-0002-1292-6535",
+        "path": "0000-0002-1292-6535",
+        "host": "orcid.org"
+    },
+    "preferences": {
+        "locale": "en"
+    },
+    "history": {
+        "creation-method": "DIRECT",
+        "completion-date": null,
+        "submission-date": {
+            "value": 1478015563708
+        },
+        "last-modified-date": {
+            "value": 1581806752696
+        },
+        "claimed": true,
+        "source": null,
+        "deactivation-date": null,
+        "verified-email": true,
+        "verified-primary-email": true
+    },
+    "person": {
+        "last-modified-date": null,
+        "name": {
+            "created-date": {
+                "value": 1478015563931
+            },
+            "last-modified-date": {
+                "value": 1478015563931
+            },
+            "given-names": {
+                "value": "steven"
+            },
+            "family-name": {
+                "value": "bergman"
+            },
+            "credit-name": null,
+            "source": null,
+            "visibility": "public",
+            "path": "0000-0002-1292-6535"
+        },
+        "other-names": {
+            "last-modified-date": null,
+            "other-name": [],
+            "path": "/0000-0002-1292-6535/other-names"
+        },
+        "biography": null,
+        "researcher-urls": {
+            "last-modified-date": null,
+            "researcher-url": [],
+            "path": "/0000-0002-1292-6535/researcher-urls"
+        },
+        "emails": {
+            "last-modified-date": null,
+            "email": [],
+            "path": "/0000-0002-1292-6535/email"
+        },
+        "addresses": {
+            "last-modified-date": null,
+            "address": [],
+            "path": "/0000-0002-1292-6535/address"
+        },
+        "keywords": {
+            "last-modified-date": null,
+            "keyword": [],
+            "path": "/0000-0002-1292-6535/keywords"
+        },
+        "external-identifiers": {
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0000-0002-1292-6535/external-identifiers"
+        },
+        "path": "/0000-0002-1292-6535/person"
+    },
+    "activities-summary": {
+        "last-modified-date": {
+            "value": 1507824038196
+        },
+        "distinctions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-1292-6535/distinctions"
+        },
+        "educations": {
+            "last-modified-date": {
+                "value": 1478015653600
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1478015653600
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "education-summary": {
+                                "created-date": {
+                                    "value": 1478015653600
+                                },
+                                "last-modified-date": {
+                                    "value": 1478015653600
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0002-1292-6535",
+                                        "path": "0000-0002-1292-6535",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "steven bergman"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 2523766,
+                                "department-name": "Geological Sciences",
+                                "role-title": "PhD",
+                                "start-date": {
+                                    "year": {
+                                        "value": "1977"
+                                    },
+                                    "month": {
+                                        "value": "08"
+                                    },
+                                    "day": {
+                                        "value": "16"
+                                    }
+                                },
+                                "end-date": {
+                                    "year": {
+                                        "value": "1982"
+                                    },
+                                    "month": {
+                                        "value": "06"
+                                    },
+                                    "day": {
+                                        "value": "16"
+                                    }
+                                },
+                                "organization": {
+                                    "name": "Princeton University",
+                                    "address": {
+                                        "city": "Princeton",
+                                        "region": "NJ",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "6740",
+                                        "disambiguation-source": "RINGGOLD"
+                                    }
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "0",
+                                "visibility": "public",
+                                "path": "/0000-0002-1292-6535/education/2523766"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0002-1292-6535/educations"
+        },
+        "employments": {
+            "last-modified-date": {
+                "value": 1507824038196
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1507824038196
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "employment-summary": {
+                                "created-date": {
+                                    "value": 1507824038196
+                                },
+                                "last-modified-date": {
+                                    "value": 1507824038196
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0002-1292-6535",
+                                        "path": "0000-0002-1292-6535",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "steven bergman"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 4758004,
+                                "department-name": "R&D ",
+                                "role-title": "CEO",
+                                "start-date": {
+                                    "year": {
+                                        "value": "2016"
+                                    },
+                                    "month": {
+                                        "value": "11"
+                                    },
+                                    "day": {
+                                        "value": "31"
+                                    }
+                                },
+                                "end-date": null,
+                                "organization": {
+                                    "name": "SCB geosciences",
+                                    "address": {
+                                        "city": "Vashon",
+                                        "region": "WA",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": null
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "0",
+                                "visibility": "public",
+                                "path": "/0000-0002-1292-6535/employment/4758004"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1507823910272
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "employment-summary": {
+                                "created-date": {
+                                    "value": 1478015874845
+                                },
+                                "last-modified-date": {
+                                    "value": 1507823910272
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0002-1292-6535",
+                                        "path": "0000-0002-1292-6535",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "steven bergman"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 2523776,
+                                "department-name": "Integrated Geosciences",
+                                "role-title": "Principal Regional Geologist (retired)",
+                                "start-date": {
+                                    "year": {
+                                        "value": "2005"
+                                    },
+                                    "month": {
+                                        "value": "09"
+                                    },
+                                    "day": {
+                                        "value": "14"
+                                    }
+                                },
+                                "end-date": {
+                                    "year": {
+                                        "value": "2016"
+                                    },
+                                    "month": {
+                                        "value": "11"
+                                    },
+                                    "day": {
+                                        "value": "30"
+                                    }
+                                },
+                                "organization": {
+                                    "name": "Shell International Exploration & Production, Inc.",
+                                    "address": {
+                                        "city": "Houston",
+                                        "region": "TX",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": null
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "0",
+                                "visibility": "public",
+                                "path": "/0000-0002-1292-6535/employment/2523776"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0002-1292-6535/employments"
+        },
+        "fundings": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0002-1292-6535/fundings"
+        },
+        "invited-positions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-1292-6535/invited-positions"
+        },
+        "memberships": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-1292-6535/memberships"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0002-1292-6535/peer-reviews"
+        },
+        "qualifications": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-1292-6535/qualifications"
+        },
+        "research-resources": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0002-1292-6535/research-resources"
+        },
+        "services": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-1292-6535/services"
+        },
+        "works": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0002-1292-6535/works"
+        },
+        "path": "/0000-0002-1292-6535/activities"
+    },
+    "path": "/0000-0002-1292-6535"
+}

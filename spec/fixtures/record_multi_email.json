@@ -1,0 +1,444 @@
+{
+    "orcid-identifier": {
+        "uri": "https://orcid.org/0000-0002-5523-634X",
+        "path": "0000-0002-5523-634X",
+        "host": "orcid.org"
+    },
+    "preferences": {
+        "locale": "en"
+    },
+    "history": {
+        "creation-method": "MEMBER_REFERRED",
+        "completion-date": null,
+        "submission-date": {
+            "value": 1512580967990
+        },
+        "last-modified-date": {
+            "value": 1581652787763
+        },
+        "claimed": true,
+        "source": null,
+        "deactivation-date": null,
+        "verified-email": true,
+        "verified-primary-email": true
+    },
+    "person": {
+        "last-modified-date": {
+            "value": 1574863373645
+        },
+        "name": {
+            "created-date": {
+                "value": 1512580967990
+            },
+            "last-modified-date": {
+                "value": 1512580968214
+            },
+            "given-names": {
+                "value": "Carlos"
+            },
+            "family-name": {
+                "value": "Valle"
+            },
+            "credit-name": null,
+            "source": null,
+            "visibility": "public",
+            "path": "0000-0002-5523-634X"
+        },
+        "other-names": {
+            "last-modified-date": null,
+            "other-name": [],
+            "path": "/0000-0002-5523-634X/other-names"
+        },
+        "biography": null,
+        "researcher-urls": {
+            "last-modified-date": null,
+            "researcher-url": [],
+            "path": "/0000-0002-5523-634X/researcher-urls"
+        },
+        "emails": {
+            "last-modified-date": {
+                "value": 1574863373645
+            },
+            "email": [
+                {
+                    "created-date": {
+                        "value": 1574863234602
+                    },
+                    "last-modified-date": {
+                        "value": 1574863373645
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "https://orcid.org/0000-0002-5523-634X",
+                            "path": "0000-0002-5523-634X",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Carlos Valle"
+                        },
+                        "assertion-origin-orcid": null,
+                        "assertion-origin-client-id": null,
+                        "assertion-origin-name": null
+                    },
+                    "email": "person1@example.com",
+                    "path": null,
+                    "visibility": "public",
+                    "verified": true,
+                    "primary": false,
+                    "put-code": null
+                },
+                {
+                    "created-date": {
+                        "value": 1512580968214
+                    },
+                    "last-modified-date": {
+                        "value": 1574256706009
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "https://orcid.org/0000-0002-5523-634X",
+                            "path": "0000-0002-5523-634X",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Carlos Valle"
+                        },
+                        "assertion-origin-orcid": null,
+                        "assertion-origin-client-id": null,
+                        "assertion-origin-name": null
+                    },
+                    "email": "person2@example.com",
+                    "path": null,
+                    "visibility": "public",
+                    "verified": true,
+                    "primary": true,
+                    "put-code": null
+                }
+            ],
+            "path": "/0000-0002-5523-634X/email"
+        },
+        "addresses": {
+            "last-modified-date": null,
+            "address": [],
+            "path": "/0000-0002-5523-634X/address"
+        },
+        "keywords": {
+            "last-modified-date": null,
+            "keyword": [],
+            "path": "/0000-0002-5523-634X/keywords"
+        },
+        "external-identifiers": {
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0000-0002-5523-634X/external-identifiers"
+        },
+        "path": "/0000-0002-5523-634X/person"
+    },
+    "activities-summary": {
+        "last-modified-date": {
+            "value": 1574863371150
+        },
+        "distinctions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-5523-634X/distinctions"
+        },
+        "educations": {
+            "last-modified-date": {
+                "value": 1574862863053
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1574862863053
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "education-summary": {
+                                "created-date": {
+                                    "value": 1574862863053
+                                },
+                                "last-modified-date": {
+                                    "value": 1574862863053
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0002-5523-634X",
+                                        "path": "0000-0002-5523-634X",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Carlos Valle"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9228223,
+                                "department-name": "Ecology and Evolutionary Biology",
+                                "role-title": "PhD",
+                                "start-date": {
+                                    "year": {
+                                        "value": "1988"
+                                    },
+                                    "month": {
+                                        "value": "08"
+                                    },
+                                    "day": {
+                                        "value": "01"
+                                    }
+                                },
+                                "end-date": {
+                                    "year": {
+                                        "value": "1994"
+                                    },
+                                    "month": {
+                                        "value": "08"
+                                    },
+                                    "day": {
+                                        "value": "30"
+                                    }
+                                },
+                                "organization": {
+                                    "name": "Princeton University",
+                                    "address": {
+                                        "city": "Princeton",
+                                        "region": "New Jersey",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "grid.16750.35",
+                                        "disambiguation-source": "GRID"
+                                    }
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0002-5523-634X/education/9228223"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0002-5523-634X/educations"
+        },
+        "employments": {
+            "last-modified-date": {
+                "value": 1574863371150
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1574863371150
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "employment-summary": {
+                                "created-date": {
+                                    "value": 1574862642943
+                                },
+                                "last-modified-date": {
+                                    "value": 1574863371150
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0002-5523-634X",
+                                        "path": "0000-0002-5523-634X",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Carlos Valle"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9228181,
+                                "department-name": "Biology and Environmental Sciences",
+                                "role-title": "Professor",
+                                "start-date": {
+                                    "year": {
+                                        "value": "1994"
+                                    },
+                                    "month": {
+                                        "value": "03"
+                                    },
+                                    "day": {
+                                        "value": "01"
+                                    }
+                                },
+                                "end-date": null,
+                                "organization": {
+                                    "name": "Universidad San Francisco de Quito",
+                                    "address": {
+                                        "city": "Quito",
+                                        "region": "Pichincha",
+                                        "country": "EC"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "27902",
+                                        "disambiguation-source": "RINGGOLD"
+                                    }
+                                },
+                                "url": {
+                                    "value": "http://www.usfq.edu.ec"
+                                },
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0002-5523-634X/employment/9228181"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0002-5523-634X/employments"
+        },
+        "fundings": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0002-5523-634X/fundings"
+        },
+        "invited-positions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-5523-634X/invited-positions"
+        },
+        "memberships": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-5523-634X/memberships"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0002-5523-634X/peer-reviews"
+        },
+        "qualifications": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-5523-634X/qualifications"
+        },
+        "research-resources": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0002-5523-634X/research-resources"
+        },
+        "services": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0002-5523-634X/services"
+        },
+        "works": {
+            "last-modified-date": {
+                "value": 1574862945323
+            },
+            "group": [
+                {
+                    "last-modified-date": {
+                        "value": 1574862945323
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1016/j.mambio.2018.02.004",
+                                "external-id-normalized": {
+                                    "value": "10.1016/j.mambio.2018.02.004",
+                                    "transient": true
+                                },
+                                "external-id-normalized-error": null,
+                                "external-id-url": {
+                                    "value": "https://doi.org/10.1016/j.mambio.2018.02.004"
+                                },
+                                "external-id-relationship": "self"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 48063933,
+                            "created-date": {
+                                "value": 1536254136721
+                            },
+                            "last-modified-date": {
+                                "value": 1574862945323
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "https://orcid.org/client/0000-0001-9884-1913",
+                                    "path": "0000-0001-9884-1913",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Crossref"
+                                },
+                                "assertion-origin-orcid": null,
+                                "assertion-origin-client-id": null,
+                                "assertion-origin-name": null
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "The diet of introduced cats on San Cristobal Island, Galapagos: cat feces as a proxy for cat predation"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1016/j.mambio.2018.02.004",
+                                        "external-id-normalized": {
+                                            "value": "10.1016/j.mambio.2018.02.004",
+                                            "transient": true
+                                        },
+                                        "external-id-normalized-error": null,
+                                        "external-id-url": {
+                                            "value": "https://doi.org/10.1016/j.mambio.2018.02.004"
+                                        },
+                                        "external-id-relationship": "self"
+                                    }
+                                ]
+                            },
+                            "url": {
+                                "value": "https://doi.org/10.1016/j.mambio.2018.02.004"
+                            },
+                            "type": "journal-article",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2018"
+                                },
+                                "month": {
+                                    "value": "05"
+                                },
+                                "day": null
+                            },
+                            "journal-title": {
+                                "value": "Mammalian Biology"
+                            },
+                            "visibility": "public",
+                            "path": "/0000-0002-5523-634X/work/48063933",
+                            "display-index": "0"
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0002-5523-634X/works"
+        },
+        "path": "/0000-0002-5523-634X/activities"
+    },
+    "path": "/0000-0002-5523-634X"
+}
