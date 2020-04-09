@@ -3,6 +3,10 @@
 # results = OrcidApi::Query.institution
 module OrcidApi
   class Query
+    def self.fetch_record(orcid:)
+      new.fetch_record(orcid)
+    end
+
     def self.institution(affiliation: nil, grid: nil, ringgold: nil)
       new(affiliation: affiliation, grid: grid, ringgold: ringgold).search_institution
     end
@@ -49,12 +53,17 @@ module OrcidApi
       fielded_search("ringgold-org-id" => ringgold)
     end
 
+    def fetch_record(orcid)
+      api_instance.view_recordv3(orcid)
+    end
+
     private
 
       def api_instance
         SwaggerClient::DevelopmentMemberAPIV30Api.new
       end
 
+      # rubocop:disable Metrics/MethodLength
       def fielded_search(fields)
         results = []
         start = 0
@@ -72,8 +81,11 @@ module OrcidApi
           start += PAGE_SIZE
           break if start >= result.num_found
         end
-        results
+        results.map do |result|
+          fetch_record(result.orcid_identifier.path)
+        end
       end
+      # rubocop:enable Metrics/MethodLength
 
       def fielded_query(fields)
         fields.to_a.map do |tuple|
