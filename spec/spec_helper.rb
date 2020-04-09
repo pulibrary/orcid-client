@@ -20,9 +20,9 @@ RSpec.configure do |config|
   # (individual tests make changes and do not clean up after themselves)
   config.before do
     SwaggerClient.configure do |c|
-      c.access_token = "test_token"
+      c.access_token = OrcidApi.config[:token]
       c.base_path = "/"
-      c.host = "pub.orcid.org"
+      c.host = OrcidApi.config[:api_base_url]
     end
   end
 

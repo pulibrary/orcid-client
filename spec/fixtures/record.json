@@ -1,0 +1,1723 @@
+{
+  "orcid-identifier" : {
+    "uri" : "https://orcid.org/0000-0001-9489-0750",
+    "path" : "0000-0001-9489-0750",
+    "host" : "orcid.org"
+  },
+  "preferences" : {
+    "locale" : "en"
+  },
+  "history" : {
+    "creation-method" : "DIRECT",
+    "completion-date" : null,
+    "submission-date" : {
+      "value" : 1557407317432
+    },
+    "last-modified-date" : {
+      "value" : 1585929377442
+    },
+    "claimed" : true,
+    "source" : null,
+    "deactivation-date" : null,
+    "verified-email" : true,
+    "verified-primary-email" : true
+  },
+  "person" : {
+    "last-modified-date" : {
+      "value" : 1584388985313
+    },
+    "name" : {
+      "created-date" : {
+        "value" : 1557407317432
+      },
+      "last-modified-date" : {
+        "value" : 1557407317655
+      },
+      "given-names" : {
+        "value" : "Wind"
+      },
+      "family-name" : {
+        "value" : "Cowles"
+      },
+      "credit-name" : null,
+      "source" : null,
+      "visibility" : "public",
+      "path" : "0000-0001-9489-0750"
+    },
+    "other-names" : {
+      "last-modified-date" : {
+        "value" : 1584388985313
+      },
+      "other-name" : [ {
+        "created-date" : {
+          "value" : 1584388985313
+        },
+        "last-modified-date" : {
+          "value" : 1584388985313
+        },
+        "source" : {
+          "source-orcid" : {
+            "uri" : "https://orcid.org/0000-0001-9489-0750",
+            "path" : "0000-0001-9489-0750",
+            "host" : "orcid.org"
+          },
+          "source-client-id" : null,
+          "source-name" : {
+            "value" : "Wind Cowles"
+          },
+          "assertion-origin-orcid" : null,
+          "assertion-origin-client-id" : null,
+          "assertion-origin-name" : null
+        },
+        "content" : "H. Wind Cowles",
+        "visibility" : "public",
+        "path" : "/0000-0001-9489-0750/other-names/1379301",
+        "put-code" : 1379301,
+        "display-index" : 1
+      } ],
+      "path" : "/0000-0001-9489-0750/other-names"
+    },
+    "biography" : null,
+    "researcher-urls" : {
+      "last-modified-date" : null,
+      "researcher-url" : [ ],
+      "path" : "/0000-0001-9489-0750/researcher-urls"
+    },
+    "emails" : {
+      "last-modified-date" : null,
+      "email" : [ ],
+      "path" : "/0000-0001-9489-0750/email"
+    },
+    "addresses" : {
+      "last-modified-date" : null,
+      "address" : [ ],
+      "path" : "/0000-0001-9489-0750/address"
+    },
+    "keywords" : {
+      "last-modified-date" : null,
+      "keyword" : [ ],
+      "path" : "/0000-0001-9489-0750/keywords"
+    },
+    "external-identifiers" : {
+      "last-modified-date" : {
+        "value" : 1557408159871
+      },
+      "external-identifier" : [ {
+        "created-date" : {
+          "value" : 1557408159870
+        },
+        "last-modified-date" : {
+          "value" : 1557408159871
+        },
+        "source" : {
+          "source-orcid" : null,
+          "source-client-id" : {
+            "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+            "path" : "0000-0002-5982-8983",
+            "host" : "orcid.org"
+          },
+          "source-name" : {
+            "value" : "Scopus - Elsevier"
+          },
+          "assertion-origin-orcid" : {
+            "uri" : "https://orcid.org/0000-0001-9489-0750",
+            "path" : "0000-0001-9489-0750",
+            "host" : "orcid.org"
+          },
+          "assertion-origin-client-id" : null,
+          "assertion-origin-name" : {
+            "value" : "Wind Cowles"
+          }
+        },
+        "external-id-type" : "Scopus Author ID",
+        "external-id-value" : "16306562000",
+        "external-id-url" : {
+          "value" : "http://www.scopus.com/inward/authorDetails.url?authorID=16306562000&partnerID=MN8TOARS"
+        },
+        "external-id-relationship" : "self",
+        "visibility" : "public",
+        "path" : "/0000-0001-9489-0750/external-identifiers/1386085",
+        "put-code" : 1386085,
+        "display-index" : 0
+      } ],
+      "path" : "/0000-0001-9489-0750/external-identifiers"
+    },
+    "path" : "/0000-0001-9489-0750/person"
+  },
+  "activities-summary" : {
+    "last-modified-date" : {
+      "value" : 1565024773581
+    },
+    "distinctions" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-9489-0750/distinctions"
+    },
+    "educations" : {
+      "last-modified-date" : {
+        "value" : 1557407946543
+      },
+      "affiliation-group" : [ {
+        "last-modified-date" : {
+          "value" : 1557407946543
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "education-summary" : {
+            "created-date" : {
+              "value" : 1557407946543
+            },
+            "last-modified-date" : {
+              "value" : 1557407946543
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0001-9489-0750",
+                "path" : "0000-0001-9489-0750",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : {
+                "value" : "Wind Cowles"
+              },
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 7853488,
+            "department-name" : "Cognitive Science and Linguistics",
+            "role-title" : "PhD",
+            "start-date" : {
+              "year" : {
+                "value" : "2000"
+              },
+              "month" : {
+                "value" : "06"
+              },
+              "day" : {
+                "value" : "02"
+              }
+            },
+            "end-date" : {
+              "year" : {
+                "value" : "2003"
+              },
+              "month" : {
+                "value" : "12"
+              },
+              "day" : {
+                "value" : "31"
+              }
+            },
+            "organization" : {
+              "name" : "University of California San Diego",
+              "address" : {
+                "city" : "La Jolla",
+                "region" : "CA",
+                "country" : "US"
+              },
+              "disambiguated-organization" : {
+                "disambiguated-organization-identifier" : "8784",
+                "disambiguation-source" : "RINGGOLD"
+              }
+            },
+            "url" : {
+              "value" : "http://www.cogsci.ucsd.edu/graduates/interdisciplinary-program/index.html"
+            },
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0001-9489-0750/education/7853488"
+          }
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557407804477
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "education-summary" : {
+            "created-date" : {
+              "value" : 1557407804477
+            },
+            "last-modified-date" : {
+              "value" : 1557407804477
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0001-9489-0750",
+                "path" : "0000-0001-9489-0750",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : {
+                "value" : "Wind Cowles"
+              },
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 7853464,
+            "department-name" : "Linguistics",
+            "role-title" : "MA",
+            "start-date" : {
+              "year" : {
+                "value" : "1996"
+              },
+              "month" : {
+                "value" : "08"
+              },
+              "day" : {
+                "value" : "01"
+              }
+            },
+            "end-date" : {
+              "year" : {
+                "value" : "2000"
+              },
+              "month" : {
+                "value" : "06"
+              },
+              "day" : {
+                "value" : "01"
+              }
+            },
+            "organization" : {
+              "name" : "University of California San Diego",
+              "address" : {
+                "city" : "La Jolla",
+                "region" : "CA",
+                "country" : "US"
+              },
+              "disambiguated-organization" : {
+                "disambiguated-organization-identifier" : "8784",
+                "disambiguation-source" : "RINGGOLD"
+              }
+            },
+            "url" : {
+              "value" : "https://linguistics.ucsd.edu"
+            },
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0001-9489-0750/education/7853464"
+          }
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557407558693
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "education-summary" : {
+            "created-date" : {
+              "value" : 1557407558693
+            },
+            "last-modified-date" : {
+              "value" : 1557407558693
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0001-9489-0750",
+                "path" : "0000-0001-9489-0750",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : {
+                "value" : "Wind Cowles"
+              },
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 7853439,
+            "department-name" : "Linguistics",
+            "role-title" : "BA",
+            "start-date" : {
+              "year" : {
+                "value" : "1992"
+              },
+              "month" : {
+                "value" : "08"
+              },
+              "day" : {
+                "value" : "01"
+              }
+            },
+            "end-date" : {
+              "year" : {
+                "value" : "1996"
+              },
+              "month" : {
+                "value" : "05"
+              },
+              "day" : {
+                "value" : "30"
+              }
+            },
+            "organization" : {
+              "name" : "University of Southern California",
+              "address" : {
+                "city" : "Los Angeles",
+                "region" : "CA",
+                "country" : "US"
+              },
+              "disambiguated-organization" : null
+            },
+            "url" : {
+              "value" : "https://www.usc.edu/"
+            },
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0001-9489-0750/education/7853439"
+          }
+        } ]
+      } ],
+      "path" : "/0000-0001-9489-0750/educations"
+    },
+    "employments" : {
+      "last-modified-date" : {
+        "value" : 1565024773581
+      },
+      "affiliation-group" : [ {
+        "last-modified-date" : {
+          "value" : 1565024773581
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "employment-summary" : {
+            "created-date" : {
+              "value" : 1565024754127
+            },
+            "last-modified-date" : {
+              "value" : 1565024773581
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0001-9489-0750",
+                "path" : "0000-0001-9489-0750",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : {
+                "value" : "Wind Cowles"
+              },
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 8398793,
+            "department-name" : "Library",
+            "role-title" : "Director, Princeton Research Data Service",
+            "start-date" : {
+              "year" : {
+                "value" : "2019"
+              },
+              "month" : {
+                "value" : "04"
+              },
+              "day" : {
+                "value" : "20"
+              }
+            },
+            "end-date" : null,
+            "organization" : {
+              "name" : "Princeton University",
+              "address" : {
+                "city" : "Princeton",
+                "region" : "New Jersey",
+                "country" : "US"
+              },
+              "disambiguated-organization" : null
+            },
+            "url" : null,
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0001-9489-0750/employment/8398793"
+          }
+        } ]
+      } ],
+      "path" : "/0000-0001-9489-0750/employments"
+    },
+    "fundings" : {
+      "last-modified-date" : null,
+      "group" : [ ],
+      "path" : "/0000-0001-9489-0750/fundings"
+    },
+    "invited-positions" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-9489-0750/invited-positions"
+    },
+    "memberships" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-9489-0750/memberships"
+    },
+    "peer-reviews" : {
+      "last-modified-date" : null,
+      "group" : [ ],
+      "path" : "/0000-0001-9489-0750/peer-reviews"
+    },
+    "qualifications" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-9489-0750/qualifications"
+    },
+    "research-resources" : {
+      "last-modified-date" : null,
+      "group" : [ ],
+      "path" : "/0000-0001-9489-0750/research-resources"
+    },
+    "services" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-9489-0750/services"
+    },
+    "works" : {
+      "last-modified-date" : {
+        "value" : 1557408171324
+      },
+      "group" : [ {
+        "last-modified-date" : {
+          "value" : 1557408171315
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-85063670670",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-85063670670",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1177/1747021818769567",
+            "external-id-normalized" : {
+              "value" : "10.1177/1747021818769567",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243056,
+          "created-date" : {
+            "value" : 1557408171315
+          },
+          "last-modified-date" : {
+            "value" : 1557408171315
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Object attraction effects during subject-verb agreement in Persian"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1177/1747021818769567",
+              "external-id-normalized" : {
+                "value" : "10.1177/1747021818769567",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-85063670670",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-85063670670",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-85063670670&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2019"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Quarterly journal of experimental psychology (2006)"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243056",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171302
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-84894266681",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-84894266681",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1111/bjdp.12027",
+            "external-id-normalized" : {
+              "value" : "10.1111/bjdp.12027",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243052,
+          "created-date" : {
+            "value" : 1557408171302
+          },
+          "last-modified-date" : {
+            "value" : 1557408171302
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Control of voice gender in pre-pubertal children"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1111/bjdp.12027",
+              "external-id-normalized" : {
+                "value" : "10.1111/bjdp.12027",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-84894266681",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-84894266681",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-84894266681&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "British Journal of Developmental Psychology"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243052",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171312
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-84899678140",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-84899678140",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1016/j.ridd.2014.03.043",
+            "external-id-normalized" : {
+              "value" : "10.1016/j.ridd.2014.03.043",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243055,
+          "created-date" : {
+            "value" : 1557408171312
+          },
+          "last-modified-date" : {
+            "value" : 1557408171312
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Investigating graph comprehension in students with dyslexia: An eye tracking study"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1016/j.ridd.2014.03.043",
+              "external-id-normalized" : {
+                "value" : "10.1016/j.ridd.2014.03.043",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-84899678140",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-84899678140",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-84899678140&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Research in Developmental Disabilities"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243055",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171318
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1080/01690965.2011.606668",
+            "external-id-normalized" : {
+              "value" : "10.1080/01690965.2011.606668",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-84866698653",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-84866698653",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243057,
+          "created-date" : {
+            "value" : 1557408171318
+          },
+          "last-modified-date" : {
+            "value" : 1557408171318
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Between anaphora and deixis... The resolution of the demonstrative noun phrase \"that N\""
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1080/01690965.2011.606668",
+              "external-id-normalized" : {
+                "value" : "10.1080/01690965.2011.606668",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-84866698653",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-84866698653",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-84866698653&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Language and Cognitive Processes"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243057",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171285
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1371/journal.pone.0031353",
+            "external-id-normalized" : {
+              "value" : "10.1371/journal.pone.0031353",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-84857170990",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-84857170990",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243048,
+          "created-date" : {
+            "value" : 1557408171285
+          },
+          "last-modified-date" : {
+            "value" : 1557408171285
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Spontaneous voice gender imitation abilities in adult speakers"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1371/journal.pone.0031353",
+              "external-id-normalized" : {
+                "value" : "10.1371/journal.pone.0031353",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-84857170990",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-84857170990",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-84857170990&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "PLoS ONE"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243048",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171293
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-84855972822",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-84855972822",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1080/0163853X.2011.635989",
+            "external-id-normalized" : {
+              "value" : "10.1080/0163853x.2011.635989",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243050,
+          "created-date" : {
+            "value" : 1557408171293
+          },
+          "last-modified-date" : {
+            "value" : 1557408171293
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "The Influence of Topic Status on Written and Spoken Sentence Production"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1080/0163853X.2011.635989",
+              "external-id-normalized" : {
+                "value" : "10.1080/0163853x.2011.635989",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-84855972822",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-84855972822",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-84855972822&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2011"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Discourse Processes"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243050",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171324
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-77952840557",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-77952840557",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1080/17470210903359198",
+            "external-id-normalized" : {
+              "value" : "10.1080/17470210903359198",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243058,
+          "created-date" : {
+            "value" : 1557408171324
+          },
+          "last-modified-date" : {
+            "value" : 1557408171324
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Conceptual similarity effects on working memory in sentence contexts: Testing a theory of anaphora"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1080/17470210903359198",
+              "external-id-normalized" : {
+                "value" : "10.1080/17470210903359198",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-77952840557",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-77952840557",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-77952840557&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Quarterly Journal of Experimental Psychology"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243058",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171271
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-84920753086",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-84920753086",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243047,
+          "created-date" : {
+            "value" : 1557408171271
+          },
+          "last-modified-date" : {
+            "value" : 1557408171271
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Looking Both Ways"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1093/acprof:oso/9780195331639.003.0010",
+              "external-id-normalized" : {
+                "value" : "10.1093/acprof:oso/9780195331639.003.0010",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "part-of"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-84920753086",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-84920753086",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-84920753086&partnerID=MN8TOARS"
+          },
+          "type" : "book-chapter",
+          "publication-date" : {
+            "year" : {
+              "value" : "2008"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Reference: Interdisciplinary Perspectives"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243047",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171309
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1007/s11245-006-9004-6",
+            "external-id-normalized" : {
+              "value" : "10.1007/s11245-006-9004-6",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-34248367010",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-34248367010",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243054,
+          "created-date" : {
+            "value" : 1557408171309
+          },
+          "last-modified-date" : {
+            "value" : 1557408171309
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Linguistic and cognitive prominence in anaphor resolution: Topic, contrastive focus and pronouns"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1007/s11245-006-9004-6",
+              "external-id-normalized" : {
+                "value" : "10.1007/s11245-006-9004-6",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-34248367010",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-34248367010",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-34248367010&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2007"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Topoi"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243054",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171296
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1016/j.bandl.2007.04.004",
+            "external-id-normalized" : {
+              "value" : "10.1016/j.bandl.2007.04.004",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-34447317265",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-34447317265",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243051,
+          "created-date" : {
+            "value" : 1557408171296
+          },
+          "last-modified-date" : {
+            "value" : 1557408171296
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Violations of information structure: An electrophysiological study of answers to wh-questions"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1016/j.bandl.2007.04.004",
+              "external-id-normalized" : {
+                "value" : "10.1016/j.bandl.2007.04.004",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-34447317265",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-34447317265",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-34447317265&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2007"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Brain and Language"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243051",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171290
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1080/01690960400024624",
+            "external-id-normalized" : {
+              "value" : "10.1080/01690960400024624",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-30544432541",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-30544432541",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243049,
+          "created-date" : {
+            "value" : 1557408171290
+          },
+          "last-modified-date" : {
+            "value" : 1557408171290
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Antecedent focus and conceptual distance effects in category noun-phrase anaphora"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1080/01690960400024624",
+              "external-id-normalized" : {
+                "value" : "10.1080/01690960400024624",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-30544432541",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-30544432541",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-30544432541&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2005"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Language and Cognitive Processes"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243049",
+          "display-index" : "0"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1557408171305
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "eid",
+            "external-id-value" : "2-s2.0-15044349202",
+            "external-id-normalized" : {
+              "value" : "2-s2.0-15044349202",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          }, {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1016/j.jml.2004.12.004",
+            "external-id-normalized" : {
+              "value" : "10.1016/j.jml.2004.12.004",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : null,
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57243053,
+          "created-date" : {
+            "value" : 1557408171305
+          },
+          "last-modified-date" : {
+            "value" : 1557408171305
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Scopus - Elsevier"
+            },
+            "assertion-origin-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-9489-0750",
+              "path" : "0000-0001-9489-0750",
+              "host" : "orcid.org"
+            },
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : {
+              "value" : "Wind Cowles"
+            }
+          },
+          "title" : {
+            "title" : {
+              "value" : "Indirect anaphora in English and French: A cross-linguistic study of pronoun resolution"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1016/j.jml.2004.12.004",
+              "external-id-normalized" : {
+                "value" : "10.1016/j.jml.2004.12.004",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            }, {
+              "external-id-type" : "eid",
+              "external-id-value" : "2-s2.0-15044349202",
+              "external-id-normalized" : {
+                "value" : "2-s2.0-15044349202",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : null,
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-15044349202&partnerID=MN8TOARS"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2005"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "journal-title" : {
+            "value" : "Journal of Memory and Language"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-9489-0750/work/57243053",
+          "display-index" : "0"
+        } ]
+      } ],
+      "path" : "/0000-0001-9489-0750/works"
+    },
+    "path" : "/0000-0001-9489-0750/activities"
+  },
+  "path" : "/0000-0001-9489-0750"
+}
