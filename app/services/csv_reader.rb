@@ -10,8 +10,8 @@ class CsvReader
   end
 
   def people
-    CSV.read(in_path).map do |row|
-      Person.new(row[0], row[1], row[2])
+    CSV.read(in_path, headers: true).map do |row|
+      Person.new(row[1], row[2], row[0])
     end
   end
 end
