@@ -1,0 +1,1157 @@
+{
+  "orcid-identifier" : {
+    "uri" : "https://orcid.org/0000-0001-7074-1152",
+    "path" : "0000-0001-7074-1152",
+    "host" : "orcid.org"
+  },
+  "preferences" : {
+    "locale" : "en"
+  },
+  "history" : {
+    "creation-method" : "DIRECT",
+    "completion-date" : null,
+    "submission-date" : {
+      "value" : 1559054494895
+    },
+    "last-modified-date" : {
+      "value" : 1585924481178
+    },
+    "claimed" : true,
+    "source" : null,
+    "deactivation-date" : null,
+    "verified-email" : true,
+    "verified-primary-email" : true
+  },
+  "person" : {
+    "last-modified-date" : {
+      "value" : 1559058954922
+    },
+    "name" : {
+      "created-date" : {
+        "value" : 1559054494895
+      },
+      "last-modified-date" : {
+        "value" : 1559054495128
+      },
+      "given-names" : {
+        "value" : "Esmé"
+      },
+      "family-name" : {
+        "value" : "Cowles"
+      },
+      "credit-name" : null,
+      "source" : null,
+      "visibility" : "public",
+      "path" : "0000-0001-7074-1152"
+    },
+    "other-names" : {
+      "last-modified-date" : {
+        "value" : 1559058954922
+      },
+      "other-name" : [ {
+        "created-date" : {
+          "value" : 1559058954922
+        },
+        "last-modified-date" : {
+          "value" : 1559058954922
+        },
+        "source" : {
+          "source-orcid" : {
+            "uri" : "https://orcid.org/0000-0001-7074-1152",
+            "path" : "0000-0001-7074-1152",
+            "host" : "orcid.org"
+          },
+          "source-client-id" : null,
+          "source-name" : {
+            "value" : "Esmé Cowles"
+          },
+          "assertion-origin-orcid" : null,
+          "assertion-origin-client-id" : null,
+          "assertion-origin-name" : null
+        },
+        "content" : "Kevin Esmé Cowles",
+        "visibility" : "public",
+        "path" : "/0000-0001-7074-1152/other-names/1250139",
+        "put-code" : 1250139,
+        "display-index" : 1
+      } ],
+      "path" : "/0000-0001-7074-1152/other-names"
+    },
+    "biography" : null,
+    "researcher-urls" : {
+      "last-modified-date" : null,
+      "researcher-url" : [ ],
+      "path" : "/0000-0001-7074-1152/researcher-urls"
+    },
+    "emails" : {
+      "last-modified-date" : null,
+      "email" : [ ],
+      "path" : "/0000-0001-7074-1152/email"
+    },
+    "addresses" : {
+      "last-modified-date" : {
+        "value" : 1559058912427
+      },
+      "address" : [ {
+        "created-date" : {
+          "value" : 1559058912427
+        },
+        "last-modified-date" : {
+          "value" : 1559058912427
+        },
+        "source" : {
+          "source-orcid" : {
+            "uri" : "https://orcid.org/0000-0001-7074-1152",
+            "path" : "0000-0001-7074-1152",
+            "host" : "orcid.org"
+          },
+          "source-client-id" : null,
+          "source-name" : {
+            "value" : "Esmé Cowles"
+          },
+          "assertion-origin-orcid" : null,
+          "assertion-origin-client-id" : null,
+          "assertion-origin-name" : null
+        },
+        "country" : {
+          "value" : "US"
+        },
+        "visibility" : "public",
+        "path" : "/0000-0001-7074-1152/address/1272194",
+        "put-code" : 1272194,
+        "display-index" : 1
+      } ],
+      "path" : "/0000-0001-7074-1152/address"
+    },
+    "keywords" : {
+      "last-modified-date" : null,
+      "keyword" : [ ],
+      "path" : "/0000-0001-7074-1152/keywords"
+    },
+    "external-identifiers" : {
+      "last-modified-date" : null,
+      "external-identifier" : [ ],
+      "path" : "/0000-0001-7074-1152/external-identifiers"
+    },
+    "path" : "/0000-0001-7074-1152/person"
+  },
+  "activities-summary" : {
+    "last-modified-date" : {
+      "value" : 1585924481181
+    },
+    "distinctions" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-7074-1152/distinctions"
+    },
+    "educations" : {
+      "last-modified-date" : {
+        "value" : 1559055139837
+      },
+      "affiliation-group" : [ {
+        "last-modified-date" : {
+          "value" : 1559055139837
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "education-summary" : {
+            "created-date" : {
+              "value" : 1559055139837
+            },
+            "last-modified-date" : {
+              "value" : 1559055139837
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0001-7074-1152",
+                "path" : "0000-0001-7074-1152",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : {
+                "value" : "Esmé Cowles"
+              },
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 7971515,
+            "department-name" : "English",
+            "role-title" : "B.A.",
+            "start-date" : {
+              "year" : {
+                "value" : "1992"
+              },
+              "month" : {
+                "value" : "08"
+              },
+              "day" : {
+                "value" : "31"
+              }
+            },
+            "end-date" : {
+              "year" : {
+                "value" : "1996"
+              },
+              "month" : {
+                "value" : "05"
+              },
+              "day" : {
+                "value" : "11"
+              }
+            },
+            "organization" : {
+              "name" : "University of Southern California",
+              "address" : {
+                "city" : "Los Angeles",
+                "region" : "CA",
+                "country" : "US"
+              },
+              "disambiguated-organization" : {
+                "disambiguated-organization-identifier" : "5116",
+                "disambiguation-source" : "RINGGOLD"
+              }
+            },
+            "url" : {
+              "value" : "https://www.usc.edu/"
+            },
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0001-7074-1152/education/7971515"
+          }
+        } ]
+      } ],
+      "path" : "/0000-0001-7074-1152/educations"
+    },
+    "employments" : {
+      "last-modified-date" : {
+        "value" : 1570876813024
+      },
+      "affiliation-group" : [ {
+        "last-modified-date" : {
+          "value" : 1570876723894
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "employment-summary" : {
+            "created-date" : {
+              "value" : 1570876723894
+            },
+            "last-modified-date" : {
+              "value" : 1570876723894
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0001-7074-1152",
+                "path" : "0000-0001-7074-1152",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : {
+                "value" : "Esmé Cowles"
+              },
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 8878250,
+            "department-name" : "Library",
+            "role-title" : "Assistant Director for IT",
+            "start-date" : {
+              "year" : {
+                "value" : "2019"
+              },
+              "month" : {
+                "value" : "10"
+              },
+              "day" : {
+                "value" : "01"
+              }
+            },
+            "end-date" : null,
+            "organization" : {
+              "name" : "Princeton University",
+              "address" : {
+                "city" : "Princeton",
+                "region" : "New Jersey",
+                "country" : "US"
+              },
+              "disambiguated-organization" : null
+            },
+            "url" : {
+              "value" : "https://library.princeton.edu/"
+            },
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0001-7074-1152/employment/8878250"
+          }
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1570876780673
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "employment-summary" : {
+            "created-date" : {
+              "value" : 1559054850596
+            },
+            "last-modified-date" : {
+              "value" : 1570876780673
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0001-7074-1152",
+                "path" : "0000-0001-7074-1152",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : {
+                "value" : "Esmé Cowles"
+              },
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 7971474,
+            "department-name" : "Library",
+            "role-title" : "Software Development Manager",
+            "start-date" : {
+              "year" : {
+                "value" : "2018"
+              },
+              "month" : {
+                "value" : "07"
+              },
+              "day" : {
+                "value" : "01"
+              }
+            },
+            "end-date" : {
+              "year" : {
+                "value" : "2019"
+              },
+              "month" : {
+                "value" : "09"
+              },
+              "day" : {
+                "value" : "30"
+              }
+            },
+            "organization" : {
+              "name" : "Princeton University",
+              "address" : {
+                "city" : "Princeton",
+                "region" : "New Jersey",
+                "country" : "US"
+              },
+              "disambiguated-organization" : {
+                "disambiguated-organization-identifier" : "6740",
+                "disambiguation-source" : "RINGGOLD"
+              }
+            },
+            "url" : {
+              "value" : "https://library.princeton.edu/"
+            },
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0001-7074-1152/employment/7971474"
+          }
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1570876800624
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "employment-summary" : {
+            "created-date" : {
+              "value" : 1559054894423
+            },
+            "last-modified-date" : {
+              "value" : 1570876800624
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0001-7074-1152",
+                "path" : "0000-0001-7074-1152",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : {
+                "value" : "Esmé Cowles"
+              },
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 7971480,
+            "department-name" : "Library",
+            "role-title" : "Digital Infrastructure Developer",
+            "start-date" : {
+              "year" : {
+                "value" : "2015"
+              },
+              "month" : {
+                "value" : "10"
+              },
+              "day" : {
+                "value" : "05"
+              }
+            },
+            "end-date" : {
+              "year" : {
+                "value" : "2018"
+              },
+              "month" : {
+                "value" : "06"
+              },
+              "day" : {
+                "value" : "30"
+              }
+            },
+            "organization" : {
+              "name" : "Princeton University",
+              "address" : {
+                "city" : "Princeton",
+                "region" : "New Jersey",
+                "country" : "US"
+              },
+              "disambiguated-organization" : {
+                "disambiguated-organization-identifier" : "6740",
+                "disambiguation-source" : "RINGGOLD"
+              }
+            },
+            "url" : {
+              "value" : "https://library.princeton.edu/"
+            },
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0001-7074-1152/employment/7971480"
+          }
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1570876813024
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "employment-summary" : {
+            "created-date" : {
+              "value" : 1559055018959
+            },
+            "last-modified-date" : {
+              "value" : 1570876813024
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0001-7074-1152",
+                "path" : "0000-0001-7074-1152",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : {
+                "value" : "Esmé Cowles"
+              },
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 7971499,
+            "department-name" : "Library",
+            "role-title" : "Programmer/Analyst III",
+            "start-date" : {
+              "year" : {
+                "value" : "2004"
+              },
+              "month" : {
+                "value" : "09"
+              },
+              "day" : {
+                "value" : "01"
+              }
+            },
+            "end-date" : {
+              "year" : {
+                "value" : "2015"
+              },
+              "month" : {
+                "value" : "09"
+              },
+              "day" : {
+                "value" : "30"
+              }
+            },
+            "organization" : {
+              "name" : "University of California San Diego",
+              "address" : {
+                "city" : "La Jolla",
+                "region" : "California",
+                "country" : "US"
+              },
+              "disambiguated-organization" : {
+                "disambiguated-organization-identifier" : "8784",
+                "disambiguation-source" : "RINGGOLD"
+              }
+            },
+            "url" : {
+              "value" : "https://library.ucsd.edu/"
+            },
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0001-7074-1152/employment/7971499"
+          }
+        } ]
+      } ],
+      "path" : "/0000-0001-7074-1152/employments"
+    },
+    "fundings" : {
+      "last-modified-date" : null,
+      "group" : [ ],
+      "path" : "/0000-0001-7074-1152/fundings"
+    },
+    "invited-positions" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-7074-1152/invited-positions"
+    },
+    "memberships" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-7074-1152/memberships"
+    },
+    "peer-reviews" : {
+      "last-modified-date" : null,
+      "group" : [ ],
+      "path" : "/0000-0001-7074-1152/peer-reviews"
+    },
+    "qualifications" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-7074-1152/qualifications"
+    },
+    "research-resources" : {
+      "last-modified-date" : null,
+      "group" : [ ],
+      "path" : "/0000-0001-7074-1152/research-resources"
+    },
+    "services" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0001-7074-1152/services"
+    },
+    "works" : {
+      "last-modified-date" : {
+        "value" : 1585924481181
+      },
+      "group" : [ {
+        "last-modified-date" : {
+          "value" : 1585924481181
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "work-summary" : [ {
+          "put-code" : 71490764,
+          "created-date" : {
+            "value" : 1585924481181
+          },
+          "last-modified-date" : {
+            "value" : 1585924481181
+          },
+          "source" : {
+            "source-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-7074-1152",
+              "path" : "0000-0001-7074-1152",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Esmé Cowles"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "Digital Necromancy"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ ]
+          },
+          "url" : {
+            "value" : "https://docs.google.com/drawings/d/1bbLZAjSTJsVZ3fNzN1m4rFE7Vt93QLmUFtNPcJvejSM/edit"
+          },
+          "type" : "conference-poster",
+          "publication-date" : {
+            "year" : {
+              "value" : "2019"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : {
+              "value" : "23"
+            }
+          },
+          "journal-title" : {
+            "value" : "SamveraConnect"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-7074-1152/work/71490764",
+          "display-index" : "1"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1559058673895
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57897580,
+          "created-date" : {
+            "value" : 1559058673895
+          },
+          "last-modified-date" : {
+            "value" : 1559058673895
+          },
+          "source" : {
+            "source-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-7074-1152",
+              "path" : "0000-0001-7074-1152",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Esmé Cowles"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "Workflow, Preservation, and Delivery with Figgy"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ ]
+          },
+          "url" : {
+            "value" : "https://docs.google.com/drawings/d/1-0OaTu0Yyet74t92g-9-qHHc1dKfOxXHp9rZeQOpFxI/edit"
+          },
+          "type" : "conference-poster",
+          "publication-date" : {
+            "year" : {
+              "value" : "2018"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : {
+              "value" : "10"
+            }
+          },
+          "journal-title" : {
+            "value" : "SamveraConnect"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-7074-1152/work/57897580",
+          "display-index" : "1"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1559055482256
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57895699,
+          "created-date" : {
+            "value" : 1559055482256
+          },
+          "last-modified-date" : {
+            "value" : 1559055482256
+          },
+          "source" : {
+            "source-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-7074-1152",
+              "path" : "0000-0001-7074-1152",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Esmé Cowles"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "Valkyrie: Reimagining the Samvera Community"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ ]
+          },
+          "url" : {
+            "value" : "https://docs.google.com/presentation/d/1uGLykxg4_RH09udimMGycA9tHzl0t4fN8D8dq7gkkvM/edit"
+          },
+          "type" : "conference-paper",
+          "publication-date" : {
+            "year" : {
+              "value" : "2018"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : {
+              "value" : "05"
+            }
+          },
+          "journal-title" : {
+            "value" : "Open Repositories"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-7074-1152/work/57895699",
+          "display-index" : "1"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1559055734058
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57895760,
+          "created-date" : {
+            "value" : 1559055734058
+          },
+          "last-modified-date" : {
+            "value" : 1559055734058
+          },
+          "source" : {
+            "source-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-7074-1152",
+              "path" : "0000-0001-7074-1152",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Esmé Cowles"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "IIIF Between and Within Applications"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ ]
+          },
+          "url" : {
+            "value" : "https://docs.google.com/presentation/d/1tNAn4b0NJRdz291jbMdi7YYGBKlv65s-FFdA-QTb3Hs/"
+          },
+          "type" : "conference-paper",
+          "publication-date" : {
+            "year" : {
+              "value" : "2018"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : {
+              "value" : "24"
+            }
+          },
+          "journal-title" : {
+            "value" : "IIIF Conference"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-7074-1152/work/57895760",
+          "display-index" : "1"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1559058558265
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57897539,
+          "created-date" : {
+            "value" : 1559058558265
+          },
+          "last-modified-date" : {
+            "value" : 1559058558265
+          },
+          "source" : {
+            "source-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-7074-1152",
+              "path" : "0000-0001-7074-1152",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Esmé Cowles"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "Seeking Performance for Digital Collections"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ ]
+          },
+          "url" : {
+            "value" : "https://docs.google.com/drawings/d/15YLG0jKyicSdH-6KyKgymymfycyCBxSqy6Y0DTQS9yg/edit"
+          },
+          "type" : "conference-poster",
+          "publication-date" : {
+            "year" : {
+              "value" : "2017"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : {
+              "value" : "08"
+            }
+          },
+          "journal-title" : {
+            "value" : "SamveraConnect"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-7074-1152/work/57897539",
+          "display-index" : "1"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1559056054973
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57895903,
+          "created-date" : {
+            "value" : 1559056054973
+          },
+          "last-modified-date" : {
+            "value" : 1559056054973
+          },
+          "source" : {
+            "source-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-7074-1152",
+              "path" : "0000-0001-7074-1152",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Esmé Cowles"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "Curating Research Data with Hydra and PCDM"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ ]
+          },
+          "url" : {
+            "value" : "https://docs.google.com/presentation/d/175p5FuRl8lKxOvVqONIKVA6Nzqvl9traGc_8k14YwRI/edit"
+          },
+          "type" : "conference-paper",
+          "publication-date" : {
+            "year" : {
+              "value" : "2016"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : {
+              "value" : "12"
+            }
+          },
+          "journal-title" : {
+            "value" : "eResearch Australasia"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-7074-1152/work/57895903",
+          "display-index" : "1"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1559058303678
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57897373,
+          "created-date" : {
+            "value" : 1559058303678
+          },
+          "last-modified-date" : {
+            "value" : 1559058303678
+          },
+          "source" : {
+            "source-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-7074-1152",
+              "path" : "0000-0001-7074-1152",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Esmé Cowles"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "Plum(b)ing Workflow, Preservation, and Delivery with Plum"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ ]
+          },
+          "url" : {
+            "value" : "https://docs.google.com/drawings/d/1c4qdsdcxvuwor27qwH1I8yOD6AGoVfi-OrKR_FvFCXc"
+          },
+          "type" : "conference-poster",
+          "publication-date" : {
+            "year" : {
+              "value" : "2016"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : {
+              "value" : "04"
+            }
+          },
+          "journal-title" : {
+            "value" : "HydraConnect"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0001-7074-1152/work/57897373",
+          "display-index" : "1"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1559058148836
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "arxiv",
+            "external-id-value" : "arXiv:1512.00443v2",
+            "external-id-normalized" : {
+              "value" : "arXiv:1512.00443v2",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : {
+              "value" : "http://arxiv.org/abs/1512.00443v2"
+            },
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57897183,
+          "created-date" : {
+            "value" : 1559058148836
+          },
+          "last-modified-date" : {
+            "value" : 1559058148836
+          },
+          "source" : {
+            "source-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-7074-1152",
+              "path" : "0000-0001-7074-1152",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Esmé Cowles"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "Recommendations for the Technical Infrastructure for Standardized International Rights Statements"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "arxiv",
+              "external-id-value" : "arXiv:1512.00443v2",
+              "external-id-normalized" : {
+                "value" : "arXiv:1512.00443v2",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : {
+                "value" : "http://arxiv.org/abs/1512.00443v2"
+              },
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : null,
+          "type" : "preprint",
+          "publication-date" : {
+            "year" : {
+              "value" : "2015"
+            },
+            "month" : {
+              "value" : "12"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "journal-title" : null,
+          "visibility" : "public",
+          "path" : "/0000-0001-7074-1152/work/57897183",
+          "display-index" : "1"
+        } ]
+      }, {
+        "last-modified-date" : {
+          "value" : 1559058120798
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "arxiv",
+            "external-id-value" : "arXiv:1607.07765v2",
+            "external-id-normalized" : {
+              "value" : "arXiv:1607.07765v2",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : {
+              "value" : "http://arxiv.org/abs/1607.07765v2"
+            },
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 57897167,
+          "created-date" : {
+            "value" : 1559058120798
+          },
+          "last-modified-date" : {
+            "value" : 1559058120798
+          },
+          "source" : {
+            "source-orcid" : {
+              "uri" : "https://orcid.org/0000-0001-7074-1152",
+              "path" : "0000-0001-7074-1152",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Esmé Cowles"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "Rightsstatements.org White Paper: Requirements for the Technical Infrastructure for Standardized International Rights Statements"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "arxiv",
+              "external-id-value" : "arXiv:1607.07765v2",
+              "external-id-normalized" : {
+                "value" : "arXiv:1607.07765v2",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : {
+                "value" : "http://arxiv.org/abs/1607.07765v2"
+              },
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : null,
+          "type" : "preprint",
+          "publication-date" : {
+            "year" : {
+              "value" : "2015"
+            },
+            "month" : {
+              "value" : "12"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "journal-title" : null,
+          "visibility" : "public",
+          "path" : "/0000-0001-7074-1152/work/57897167",
+          "display-index" : "1"
+        } ]
+      } ],
+      "path" : "/0000-0001-7074-1152/works"
+    },
+    "path" : "/0000-0001-7074-1152/activities"
+  },
+  "path" : "/0000-0001-7074-1152"
+}

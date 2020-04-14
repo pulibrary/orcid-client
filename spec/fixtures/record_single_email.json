@@ -1,0 +1,234 @@
+{
+    "orcid-identifier": {
+        "uri": "https://orcid.org/0000-0001-5819-1135",
+        "path": "0000-0001-5819-1135",
+        "host": "orcid.org"
+    },
+    "preferences": {
+        "locale": "en"
+    },
+    "history": {
+        "creation-method": "WEBSITE",
+        "completion-date": null,
+        "submission-date": {
+            "value": 1368577928060
+        },
+        "last-modified-date": {
+            "value": 1586356396383
+        },
+        "claimed": true,
+        "source": null,
+        "deactivation-date": null,
+        "verified-email": true,
+        "verified-primary-email": true
+    },
+    "person": {
+        "last-modified-date": {
+            "value": 1581953911257
+        },
+        "name": {
+            "created-date": {
+                "value": 1460753746336
+            },
+            "last-modified-date": {
+                "value": 1460753746336
+            },
+            "given-names": {
+                "value": "Daniel"
+            },
+            "family-name": {
+                "value": "Cohen"
+            },
+            "credit-name": null,
+            "source": null,
+            "visibility": "public",
+            "path": "0000-0001-5819-1135"
+        },
+        "other-names": {
+            "last-modified-date": null,
+            "other-name": [],
+            "path": "/0000-0001-5819-1135/other-names"
+        },
+        "biography": null,
+        "researcher-urls": {
+            "last-modified-date": null,
+            "researcher-url": [],
+            "path": "/0000-0001-5819-1135/researcher-urls"
+        },
+        "emails": {
+            "last-modified-date": {
+                "value": 1581953911257
+            },
+            "email": [
+                {
+                    "created-date": {
+                        "value": 1556827673080
+                    },
+                    "last-modified-date": {
+                        "value": 1581953911257
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "https://orcid.org/0000-0001-5819-1135",
+                            "path": "0000-0001-5819-1135",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Daniel Cohen"
+                        },
+                        "assertion-origin-orcid": null,
+                        "assertion-origin-client-id": null,
+                        "assertion-origin-name": null
+                    },
+                    "email": "person@example.com",
+                    "path": null,
+                    "visibility": "public",
+                    "verified": true,
+                    "primary": true,
+                    "put-code": null
+                }
+            ],
+            "path": "/0000-0001-5819-1135/email"
+        },
+        "addresses": {
+            "last-modified-date": null,
+            "address": [],
+            "path": "/0000-0001-5819-1135/address"
+        },
+        "keywords": {
+            "last-modified-date": null,
+            "keyword": [],
+            "path": "/0000-0001-5819-1135/keywords"
+        },
+        "external-identifiers": {
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0000-0001-5819-1135/external-identifiers"
+        },
+        "path": "/0000-0001-5819-1135/person"
+    },
+    "activities-summary": {
+        "last-modified-date": {
+            "value": 1576858212767
+        },
+        "distinctions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5819-1135/distinctions"
+        },
+        "educations": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5819-1135/educations"
+        },
+        "employments": {
+            "last-modified-date": {
+                "value": 1576858212767
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1576858212767
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "employment-summary": {
+                                "created-date": {
+                                    "value": 1576858212767
+                                },
+                                "last-modified-date": {
+                                    "value": 1576858212767
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0001-5819-1135",
+                                        "path": "0000-0001-5819-1135",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Daniel Cohen"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9409805,
+                                "department-name": "Mechanical and Aerospace Engineering--Associate: Chemical & Biological Engineering, Molecular Biology",
+                                "role-title": "Assistant Professor",
+                                "start-date": null,
+                                "end-date": null,
+                                "organization": {
+                                    "name": "Princeton University",
+                                    "address": {
+                                        "city": "Princeton",
+                                        "region": "New Jersey",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "grid.16750.35",
+                                        "disambiguation-source": "GRID"
+                                    }
+                                },
+                                "url": {
+                                    "value": "http://cohengroup.princeton.edu"
+                                },
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0001-5819-1135/employment/9409805"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0001-5819-1135/employments"
+        },
+        "fundings": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0001-5819-1135/fundings"
+        },
+        "invited-positions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5819-1135/invited-positions"
+        },
+        "memberships": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5819-1135/memberships"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0001-5819-1135/peer-reviews"
+        },
+        "qualifications": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5819-1135/qualifications"
+        },
+        "research-resources": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0001-5819-1135/research-resources"
+        },
+        "services": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5819-1135/services"
+        },
+        "works": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0001-5819-1135/works"
+        },
+        "path": "/0000-0001-5819-1135/activities"
+    },
+    "path": "/0000-0001-5819-1135"
+}

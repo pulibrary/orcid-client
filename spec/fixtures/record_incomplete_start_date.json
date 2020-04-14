@@ -1,0 +1,591 @@
+{
+    "orcid-identifier": {
+        "uri": "https://orcid.org/0000-0003-0718-6189",
+        "path": "0000-0003-0718-6189",
+        "host": "orcid.org"
+    },
+    "preferences": {
+        "locale": "en"
+    },
+    "history": {
+        "creation-method": "DIRECT",
+        "completion-date": null,
+        "submission-date": {
+            "value": 1577557107854
+        },
+        "last-modified-date": {
+            "value": 1577582708410
+        },
+        "claimed": true,
+        "source": null,
+        "deactivation-date": null,
+        "verified-email": true,
+        "verified-primary-email": true
+    },
+    "person": {
+        "last-modified-date": null,
+        "name": {
+            "created-date": {
+                "value": 1577557108114
+            },
+            "last-modified-date": {
+                "value": 1577557108114
+            },
+            "given-names": {
+                "value": "Ray"
+            },
+            "family-name": {
+                "value": "Lee"
+            },
+            "credit-name": null,
+            "source": null,
+            "visibility": "public",
+            "path": "0000-0003-0718-6189"
+        },
+        "other-names": {
+            "last-modified-date": null,
+            "other-name": [],
+            "path": "/0000-0003-0718-6189/other-names"
+        },
+        "biography": null,
+        "researcher-urls": {
+            "last-modified-date": null,
+            "researcher-url": [],
+            "path": "/0000-0003-0718-6189/researcher-urls"
+        },
+        "emails": {
+            "last-modified-date": null,
+            "email": [],
+            "path": "/0000-0003-0718-6189/email"
+        },
+        "addresses": {
+            "last-modified-date": null,
+            "address": [],
+            "path": "/0000-0003-0718-6189/address"
+        },
+        "keywords": {
+            "last-modified-date": null,
+            "keyword": [],
+            "path": "/0000-0003-0718-6189/keywords"
+        },
+        "external-identifiers": {
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0000-0003-0718-6189/external-identifiers"
+        },
+        "path": "/0000-0003-0718-6189/person"
+    },
+    "activities-summary": {
+        "last-modified-date": {
+            "value": 1577559370998
+        },
+        "distinctions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-0718-6189/distinctions"
+        },
+        "educations": {
+            "last-modified-date": {
+                "value": 1577558146335
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1577558146335
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "education-summary": {
+                                "created-date": {
+                                    "value": 1577558146335
+                                },
+                                "last-modified-date": {
+                                    "value": 1577558146335
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0003-0718-6189",
+                                        "path": "0000-0003-0718-6189",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Ray Lee"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9443957,
+                                "department-name": "Electrical and Computer Engineering",
+                                "role-title": "Ph.D.",
+                                "start-date": {
+                                    "year": {
+                                        "value": "1996"
+                                    },
+                                    "month": {
+                                        "value": "03"
+                                    },
+                                    "day": null
+                                },
+                                "end-date": {
+                                    "year": {
+                                        "value": "2000"
+                                    },
+                                    "month": {
+                                        "value": "08"
+                                    },
+                                    "day": null
+                                },
+                                "organization": {
+                                    "name": "Johns Hopkins University",
+                                    "address": {
+                                        "city": "Baltimore",
+                                        "region": "MD",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "1466",
+                                        "disambiguation-source": "RINGGOLD"
+                                    }
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0003-0718-6189/education/9443957"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0003-0718-6189/educations"
+        },
+        "employments": {
+            "last-modified-date": {
+                "value": 1577557945937
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1577557352822
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "employment-summary": {
+                                "created-date": {
+                                    "value": 1577557352822
+                                },
+                                "last-modified-date": {
+                                    "value": 1577557352822
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0003-0718-6189",
+                                        "path": "0000-0003-0718-6189",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Ray Lee"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9443876,
+                                "department-name": "Zuckerman Mind Brain Behavior Institute",
+                                "role-title": "Senior Research Scientist",
+                                "start-date": {
+                                    "year": {
+                                        "value": "2017"
+                                    },
+                                    "month": {
+                                        "value": "06"
+                                    },
+                                    "day": {
+                                        "value": "01"
+                                    }
+                                },
+                                "end-date": null,
+                                "organization": {
+                                    "name": "Columbia University",
+                                    "address": {
+                                        "city": "New York",
+                                        "region": "NY",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "5798",
+                                        "disambiguation-source": "RINGGOLD"
+                                    }
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0003-0718-6189/employment/9443876"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1577557654975
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "employment-summary": {
+                                "created-date": {
+                                    "value": 1577557654975
+                                },
+                                "last-modified-date": {
+                                    "value": 1577557654975
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0003-0718-6189",
+                                        "path": "0000-0003-0718-6189",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Ray Lee"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9443904,
+                                "department-name": "Princeton Neuroscience Institute",
+                                "role-title": "Technical Director of Neuroimaging",
+                                "start-date": {
+                                    "year": {
+                                        "value": "2007"
+                                    },
+                                    "month": {
+                                        "value": "11"
+                                    },
+                                    "day": {
+                                        "value": "01"
+                                    }
+                                },
+                                "end-date": {
+                                    "year": {
+                                        "value": "2017"
+                                    },
+                                    "month": {
+                                        "value": "05"
+                                    },
+                                    "day": {
+                                        "value": "31"
+                                    }
+                                },
+                                "organization": {
+                                    "name": "Princeton University",
+                                    "address": {
+                                        "city": "Princeton",
+                                        "region": "New Jersey",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "grid.16750.35",
+                                        "disambiguation-source": "GRID"
+                                    }
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0003-0718-6189/employment/9443904"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1577557743056
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "employment-summary": {
+                                "created-date": {
+                                    "value": 1577557743056
+                                },
+                                "last-modified-date": {
+                                    "value": 1577557743056
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0003-0718-6189",
+                                        "path": "0000-0003-0718-6189",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Ray Lee"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9443913,
+                                "department-name": "Radiology",
+                                "role-title": "Assistant Professor",
+                                "start-date": {
+                                    "year": {
+                                        "value": "2003"
+                                    },
+                                    "month": {
+                                        "value": "07"
+                                    },
+                                    "day": null
+                                },
+                                "end-date": {
+                                    "year": {
+                                        "value": "2007"
+                                    },
+                                    "month": {
+                                        "value": "10"
+                                    },
+                                    "day": {
+                                        "value": "31"
+                                    }
+                                },
+                                "organization": {
+                                    "name": "New York University",
+                                    "address": {
+                                        "city": "New York",
+                                        "region": "NY",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "5894",
+                                        "disambiguation-source": "RINGGOLD"
+                                    }
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0003-0718-6189/employment/9443913"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1577557945937
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "employment-summary": {
+                                "created-date": {
+                                    "value": 1577557945937
+                                },
+                                "last-modified-date": {
+                                    "value": 1577557945937
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0003-0718-6189",
+                                        "path": "0000-0003-0718-6189",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Ray Lee"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9443934,
+                                "department-name": "Global Research Center",
+                                "role-title": "Magnetic Resonance Engineer",
+                                "start-date": {
+                                    "year": {
+                                        "value": "2000"
+                                    },
+                                    "month": {
+                                        "value": "09"
+                                    },
+                                    "day": {
+                                        "value": "01"
+                                    }
+                                },
+                                "end-date": {
+                                    "year": {
+                                        "value": "2003"
+                                    },
+                                    "month": {
+                                        "value": "07"
+                                    },
+                                    "day": null
+                                },
+                                "organization": {
+                                    "name": "General Electric Compay",
+                                    "address": {
+                                        "city": "Niskayuna",
+                                        "region": "NY",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": null
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0003-0718-6189/employment/9443934"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0003-0718-6189/employments"
+        },
+        "fundings": {
+            "last-modified-date": {
+                "value": 1577559370998
+            },
+            "group": [
+                {
+                    "last-modified-date": {
+                        "value": 1577559370998
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "grant_number",
+                                "external-id-value": "1926789",
+                                "external-id-normalized": null,
+                                "external-id-normalized-error": null,
+                                "external-id-url": {
+                                    "value": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1926789&HistoricalAwards=false"
+                                },
+                                "external-id-relationship": "self"
+                            }
+                        ]
+                    },
+                    "funding-summary": [
+                        {
+                            "created-date": {
+                                "value": 1577559370998
+                            },
+                            "last-modified-date": {
+                                "value": 1577559370998
+                            },
+                            "source": {
+                                "source-orcid": {
+                                    "uri": "https://orcid.org/0000-0003-0718-6189",
+                                    "path": "0000-0003-0718-6189",
+                                    "host": "orcid.org"
+                                },
+                                "source-client-id": null,
+                                "source-name": {
+                                    "value": "Ray Lee"
+                                },
+                                "assertion-origin-orcid": null,
+                                "assertion-origin-client-id": null,
+                                "assertion-origin-name": null
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Developing dyadic fMRI methodology to quantify and model human brain-to-brain interactions"
+                                },
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "grant_number",
+                                        "external-id-value": "1926789",
+                                        "external-id-normalized": null,
+                                        "external-id-normalized-error": null,
+                                        "external-id-url": {
+                                            "value": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1926789&HistoricalAwards=false"
+                                        },
+                                        "external-id-relationship": "self"
+                                    }
+                                ]
+                            },
+                            "url": null,
+                            "type": "grant",
+                            "start-date": null,
+                            "end-date": null,
+                            "organization": {
+                                "name": "National Science Foundation",
+                                "address": {
+                                    "city": "Alexandria",
+                                    "region": "VA",
+                                    "country": "US"
+                                },
+                                "disambiguated-organization": {
+                                    "disambiguated-organization-identifier": "http://dx.doi.org/10.13039/100000001",
+                                    "disambiguation-source": "FUNDREF"
+                                }
+                            },
+                            "visibility": "public",
+                            "put-code": 755304,
+                            "path": "/0000-0003-0718-6189/funding/755304",
+                            "display-index": "1"
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0003-0718-6189/fundings"
+        },
+        "invited-positions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-0718-6189/invited-positions"
+        },
+        "memberships": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-0718-6189/memberships"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-0718-6189/peer-reviews"
+        },
+        "qualifications": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-0718-6189/qualifications"
+        },
+        "research-resources": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-0718-6189/research-resources"
+        },
+        "services": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-0718-6189/services"
+        },
+        "works": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-0718-6189/works"
+        },
+        "path": "/0000-0003-0718-6189/activities"
+    },
+    "path": "/0000-0003-0718-6189"
+}

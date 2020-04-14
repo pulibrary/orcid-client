@@ -1,0 +1,138 @@
+{
+    "orcid-identifier": {
+        "uri": "https://orcid.org/0000-0003-2224-2804",
+        "path": "0000-0003-2224-2804",
+        "host": "orcid.org"
+    },
+    "preferences": {
+        "locale": "en"
+    },
+    "history": {
+        "creation-method": "DIRECT",
+        "completion-date": null,
+        "submission-date": {
+            "value": 1586372615076
+        },
+        "last-modified-date": {
+            "value": 1586372696798
+        },
+        "claimed": true,
+        "source": null,
+        "deactivation-date": null,
+        "verified-email": true,
+        "verified-primary-email": true
+    },
+    "person": {
+        "last-modified-date": null,
+        "name": {
+            "created-date": {
+                "value": 1586372615305
+            },
+            "last-modified-date": {
+                "value": 1586372615305
+            },
+            "given-names": {
+                "value": "Anna"
+            },
+            "family-name": {
+                "value": "Headley"
+            },
+            "credit-name": null,
+            "source": null,
+            "visibility": "public",
+            "path": "0000-0003-2224-2804"
+        },
+        "other-names": {
+            "last-modified-date": null,
+            "other-name": [],
+            "path": "/0000-0003-2224-2804/other-names"
+        },
+        "biography": null,
+        "researcher-urls": {
+            "last-modified-date": null,
+            "researcher-url": [],
+            "path": "/0000-0003-2224-2804/researcher-urls"
+        },
+        "emails": {
+            "last-modified-date": null,
+            "email": [],
+            "path": "/0000-0003-2224-2804/email"
+        },
+        "addresses": {
+            "last-modified-date": null,
+            "address": [],
+            "path": "/0000-0003-2224-2804/address"
+        },
+        "keywords": {
+            "last-modified-date": null,
+            "keyword": [],
+            "path": "/0000-0003-2224-2804/keywords"
+        },
+        "external-identifiers": {
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0000-0003-2224-2804/external-identifiers"
+        },
+        "path": "/0000-0003-2224-2804/person"
+    },
+    "activities-summary": {
+        "last-modified-date": null,
+        "distinctions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-2224-2804/distinctions"
+        },
+        "educations": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-2224-2804/educations"
+        },
+        "employments": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-2224-2804/employments"
+        },
+        "fundings": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-2224-2804/fundings"
+        },
+        "invited-positions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-2224-2804/invited-positions"
+        },
+        "memberships": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-2224-2804/memberships"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-2224-2804/peer-reviews"
+        },
+        "qualifications": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-2224-2804/qualifications"
+        },
+        "research-resources": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-2224-2804/research-resources"
+        },
+        "services": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-2224-2804/services"
+        },
+        "works": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-2224-2804/works"
+        },
+        "path": "/0000-0003-2224-2804/activities"
+    },
+    "path": "/0000-0003-2224-2804"
+}

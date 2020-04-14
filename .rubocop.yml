@@ -23,3 +23,6 @@ Metrics/BlockLength:
 Metrics/LineLength:
   Exclude:
     - 'spec/services/orcid_api/query_spec.rb'
+RSpec/ExampleLength:
+  Exclude:
+    - 'spec/services/report_spec.rb'

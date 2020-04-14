@@ -1,0 +1,197 @@
+{
+    "orcid-identifier": {
+        "uri": "https://orcid.org/0000-0001-5204-9162",
+        "path": "0000-0001-5204-9162",
+        "host": "orcid.org"
+    },
+    "preferences": {
+        "locale": "en"
+    },
+    "history": {
+        "creation-method": "DIRECT",
+        "completion-date": null,
+        "submission-date": {
+            "value": 1584364955632
+        },
+        "last-modified-date": {
+            "value": 1584424469561
+        },
+        "claimed": true,
+        "source": null,
+        "deactivation-date": null,
+        "verified-email": true,
+        "verified-primary-email": true
+    },
+    "person": {
+        "last-modified-date": null,
+        "name": {
+            "created-date": {
+                "value": 1584364955864
+            },
+            "last-modified-date": {
+                "value": 1584364955864
+            },
+            "given-names": {
+                "value": "Zhelun"
+            },
+            "family-name": null,
+            "credit-name": null,
+            "source": null,
+            "visibility": "public",
+            "path": "0000-0001-5204-9162"
+        },
+        "other-names": {
+            "last-modified-date": null,
+            "other-name": [],
+            "path": "/0000-0001-5204-9162/other-names"
+        },
+        "biography": null,
+        "researcher-urls": {
+            "last-modified-date": null,
+            "researcher-url": [],
+            "path": "/0000-0001-5204-9162/researcher-urls"
+        },
+        "emails": {
+            "last-modified-date": null,
+            "email": [],
+            "path": "/0000-0001-5204-9162/email"
+        },
+        "addresses": {
+            "last-modified-date": null,
+            "address": [],
+            "path": "/0000-0001-5204-9162/address"
+        },
+        "keywords": {
+            "last-modified-date": null,
+            "keyword": [],
+            "path": "/0000-0001-5204-9162/keywords"
+        },
+        "external-identifiers": {
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0000-0001-5204-9162/external-identifiers"
+        },
+        "path": "/0000-0001-5204-9162/person"
+    },
+    "activities-summary": {
+        "last-modified-date": {
+            "value": 1584424469556
+        },
+        "distinctions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5204-9162/distinctions"
+        },
+        "educations": {
+            "last-modified-date": {
+                "value": 1584424469556
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1584424469556
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "education-summary": {
+                                "created-date": {
+                                    "value": 1584424469556
+                                },
+                                "last-modified-date": {
+                                    "value": 1584424469556
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0001-5204-9162",
+                                        "path": "0000-0001-5204-9162",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Zhelun"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 10058758,
+                                "department-name": null,
+                                "role-title": null,
+                                "start-date": null,
+                                "end-date": null,
+                                "organization": {
+                                    "name": "Princeton University",
+                                    "address": {
+                                        "city": "Princeton",
+                                        "region": "New Jersey",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "grid.16750.35",
+                                        "disambiguation-source": "GRID"
+                                    }
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0001-5204-9162/education/10058758"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0001-5204-9162/educations"
+        },
+        "employments": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5204-9162/employments"
+        },
+        "fundings": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0001-5204-9162/fundings"
+        },
+        "invited-positions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5204-9162/invited-positions"
+        },
+        "memberships": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5204-9162/memberships"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0001-5204-9162/peer-reviews"
+        },
+        "qualifications": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5204-9162/qualifications"
+        },
+        "research-resources": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0001-5204-9162/research-resources"
+        },
+        "services": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0001-5204-9162/services"
+        },
+        "works": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0001-5204-9162/works"
+        },
+        "path": "/0000-0001-5204-9162/activities"
+    },
+    "path": "/0000-0001-5204-9162"
+}

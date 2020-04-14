@@ -1,0 +1,285 @@
+{
+  "orcid-identifier" : {
+    "uri" : "https://orcid.org/0000-0002-1945-7938",
+    "path" : "0000-0002-1945-7938",
+    "host" : "orcid.org"
+  },
+  "preferences" : {
+    "locale" : "en"
+  },
+  "history" : {
+    "creation-method" : "API",
+    "completion-date" : {
+      "value" : 1439905304089
+    },
+    "submission-date" : {
+      "value" : 1439905219687
+    },
+    "last-modified-date" : {
+      "value" : 1585866733375
+    },
+    "claimed" : true,
+    "source" : {
+      "source-orcid" : null,
+      "source-client-id" : {
+        "uri" : "https://orcid.org/client/APP-4I2KH866G1I6UEQ3",
+        "path" : "APP-4I2KH866G1I6UEQ3",
+        "host" : "orcid.org"
+      },
+      "source-name" : {
+        "value" : "Massachusetts Institute of Technology"
+      },
+      "assertion-origin-orcid" : null,
+      "assertion-origin-client-id" : null,
+      "assertion-origin-name" : null
+    },
+    "deactivation-date" : null,
+    "verified-email" : true,
+    "verified-primary-email" : true
+  },
+  "person" : {
+    "last-modified-date" : null,
+    "name" : null,
+    "other-names" : {
+      "last-modified-date" : null,
+      "other-name" : [ ],
+      "path" : "/0000-0002-1945-7938/other-names"
+    },
+    "biography" : null,
+    "researcher-urls" : {
+      "last-modified-date" : null,
+      "researcher-url" : [ ],
+      "path" : "/0000-0002-1945-7938/researcher-urls"
+    },
+    "emails" : {
+      "last-modified-date" : null,
+      "email" : [ ],
+      "path" : "/0000-0002-1945-7938/email"
+    },
+    "addresses" : {
+      "last-modified-date" : null,
+      "address" : [ ],
+      "path" : "/0000-0002-1945-7938/address"
+    },
+    "keywords" : {
+      "last-modified-date" : null,
+      "keyword" : [ ],
+      "path" : "/0000-0002-1945-7938/keywords"
+    },
+    "external-identifiers" : {
+      "last-modified-date" : null,
+      "external-identifier" : [ ],
+      "path" : "/0000-0002-1945-7938/external-identifiers"
+    },
+    "path" : "/0000-0002-1945-7938/person"
+  },
+  "activities-summary" : {
+    "last-modified-date" : {
+      "value" : 1585156166339
+    },
+    "distinctions" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0002-1945-7938/distinctions"
+    },
+    "educations" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0002-1945-7938/educations"
+    },
+    "employments" : {
+      "last-modified-date" : {
+        "value" : 1554924555000
+      },
+      "affiliation-group" : [ {
+        "last-modified-date" : {
+          "value" : 1554924555000
+        },
+        "external-ids" : {
+          "external-id" : [ ]
+        },
+        "summaries" : [ {
+          "employment-summary" : {
+            "created-date" : {
+              "value" : 1554924555000
+            },
+            "last-modified-date" : {
+              "value" : 1554924555000
+            },
+            "source" : {
+              "source-orcid" : {
+                "uri" : "https://orcid.org/0000-0002-1945-7938",
+                "path" : "0000-0002-1945-7938",
+                "host" : "orcid.org"
+              },
+              "source-client-id" : null,
+              "source-name" : null,
+              "assertion-origin-orcid" : null,
+              "assertion-origin-client-id" : null,
+              "assertion-origin-name" : null
+            },
+            "put-code" : 7677959,
+            "department-name" : "Politics",
+            "role-title" : "Assistant Professor",
+            "start-date" : {
+              "year" : {
+                "value" : "2018"
+              },
+              "month" : {
+                "value" : "07"
+              },
+              "day" : {
+                "value" : "01"
+              }
+            },
+            "end-date" : null,
+            "organization" : {
+              "name" : "Princeton University",
+              "address" : {
+                "city" : "Princeton",
+                "region" : "NJ",
+                "country" : "US"
+              },
+              "disambiguated-organization" : null
+            },
+            "url" : null,
+            "external-ids" : null,
+            "display-index" : "1",
+            "visibility" : "public",
+            "path" : "/0000-0002-1945-7938/employment/7677959"
+          }
+        } ]
+      } ],
+      "path" : "/0000-0002-1945-7938/employments"
+    },
+    "fundings" : {
+      "last-modified-date" : null,
+      "group" : [ ],
+      "path" : "/0000-0002-1945-7938/fundings"
+    },
+    "invited-positions" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0002-1945-7938/invited-positions"
+    },
+    "memberships" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0002-1945-7938/memberships"
+    },
+    "peer-reviews" : {
+      "last-modified-date" : null,
+      "group" : [ ],
+      "path" : "/0000-0002-1945-7938/peer-reviews"
+    },
+    "qualifications" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0002-1945-7938/qualifications"
+    },
+    "research-resources" : {
+      "last-modified-date" : null,
+      "group" : [ ],
+      "path" : "/0000-0002-1945-7938/research-resources"
+    },
+    "services" : {
+      "last-modified-date" : null,
+      "affiliation-group" : [ ],
+      "path" : "/0000-0002-1945-7938/services"
+    },
+    "works" : {
+      "last-modified-date" : {
+        "value" : 1585156166339
+      },
+      "group" : [ {
+        "last-modified-date" : {
+          "value" : 1585156166339
+        },
+        "external-ids" : {
+          "external-id" : [ {
+            "external-id-type" : "doi",
+            "external-id-value" : "10.1126/science.aax0868",
+            "external-id-normalized" : {
+              "value" : "10.1126/science.aax0868",
+              "transient" : true
+            },
+            "external-id-normalized-error" : null,
+            "external-id-url" : {
+              "value" : "https://doi.org/10.1126/science.aax0868"
+            },
+            "external-id-relationship" : "self"
+          } ]
+        },
+        "work-summary" : [ {
+          "put-code" : 71072980,
+          "created-date" : {
+            "value" : 1585156166339
+          },
+          "last-modified-date" : {
+            "value" : 1585156166339
+          },
+          "source" : {
+            "source-orcid" : null,
+            "source-client-id" : {
+              "uri" : "https://orcid.org/client/0000-0001-9884-1913",
+              "path" : "0000-0001-9884-1913",
+              "host" : "orcid.org"
+            },
+            "source-name" : {
+              "value" : "Crossref"
+            },
+            "assertion-origin-orcid" : null,
+            "assertion-origin-client-id" : null,
+            "assertion-origin-name" : null
+          },
+          "title" : {
+            "title" : {
+              "value" : "Universality and diversity in human song"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "external-ids" : {
+            "external-id" : [ {
+              "external-id-type" : "doi",
+              "external-id-value" : "10.1126/science.aax0868",
+              "external-id-normalized" : {
+                "value" : "10.1126/science.aax0868",
+                "transient" : true
+              },
+              "external-id-normalized-error" : null,
+              "external-id-url" : {
+                "value" : "https://doi.org/10.1126/science.aax0868"
+              },
+              "external-id-relationship" : "self"
+            } ]
+          },
+          "url" : {
+            "value" : "https://doi.org/10.1126/science.aax0868"
+          },
+          "type" : "journal-article",
+          "publication-date" : {
+            "year" : {
+              "value" : "2019"
+            },
+            "month" : {
+              "value" : "11"
+            },
+            "day" : {
+              "value" : "22"
+            }
+          },
+          "journal-title" : {
+            "value" : "Science"
+          },
+          "visibility" : "public",
+          "path" : "/0000-0002-1945-7938/work/71072980",
+          "display-index" : "0"
+        } ]
+      } ],
+      "path" : "/0000-0002-1945-7938/works"
+    },
+    "path" : "/0000-0002-1945-7938/activities"
+  },
+  "path" : "/0000-0002-1945-7938"
+}

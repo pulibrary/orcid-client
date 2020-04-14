@@ -1,0 +1,311 @@
+{
+    "orcid-identifier": {
+        "uri": "https://orcid.org/0000-0003-3202-2178",
+        "path": "0000-0003-3202-2178",
+        "host": "orcid.org"
+    },
+    "preferences": {
+        "locale": "en"
+    },
+    "history": {
+        "creation-method": "DIRECT",
+        "completion-date": null,
+        "submission-date": {
+            "value": 1574047736074
+        },
+        "last-modified-date": {
+            "value": 1574055893681
+        },
+        "claimed": true,
+        "source": null,
+        "deactivation-date": null,
+        "verified-email": true,
+        "verified-primary-email": true
+    },
+    "person": {
+        "last-modified-date": null,
+        "name": {
+            "created-date": {
+                "value": 1574047736298
+            },
+            "last-modified-date": {
+                "value": 1574047736298
+            },
+            "given-names": {
+                "value": "Matthew"
+            },
+            "family-name": {
+                "value": "Landry"
+            },
+            "credit-name": null,
+            "source": null,
+            "visibility": "public",
+            "path": "0000-0003-3202-2178"
+        },
+        "other-names": {
+            "last-modified-date": null,
+            "other-name": [],
+            "path": "/0000-0003-3202-2178/other-names"
+        },
+        "biography": null,
+        "researcher-urls": {
+            "last-modified-date": null,
+            "researcher-url": [],
+            "path": "/0000-0003-3202-2178/researcher-urls"
+        },
+        "emails": {
+            "last-modified-date": null,
+            "email": [],
+            "path": "/0000-0003-3202-2178/email"
+        },
+        "addresses": {
+            "last-modified-date": null,
+            "address": [],
+            "path": "/0000-0003-3202-2178/address"
+        },
+        "keywords": {
+            "last-modified-date": null,
+            "keyword": [],
+            "path": "/0000-0003-3202-2178/keywords"
+        },
+        "external-identifiers": {
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0000-0003-3202-2178/external-identifiers"
+        },
+        "path": "/0000-0003-3202-2178/person"
+    },
+    "activities-summary": {
+        "last-modified-date": {
+            "value": 1574047948039
+        },
+        "distinctions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-3202-2178/distinctions"
+        },
+        "educations": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-3202-2178/educations"
+        },
+        "employments": {
+            "last-modified-date": {
+                "value": 1574047846818
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1574047846818
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "employment-summary": {
+                                "created-date": {
+                                    "value": 1574047846818
+                                },
+                                "last-modified-date": {
+                                    "value": 1574047846818
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0003-3202-2178",
+                                        "path": "0000-0003-3202-2178",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Matthew Landry"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9146465,
+                                "department-name": "Discovery Chemistry",
+                                "role-title": "Scientist",
+                                "start-date": null,
+                                "end-date": null,
+                                "organization": {
+                                    "name": "Genentech",
+                                    "address": {
+                                        "city": "South San Francisco",
+                                        "region": "California",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": null
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0003-3202-2178/employment/9146465"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0003-3202-2178/employments"
+        },
+        "fundings": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-3202-2178/fundings"
+        },
+        "invited-positions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-3202-2178/invited-positions"
+        },
+        "memberships": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-3202-2178/memberships"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-3202-2178/peer-reviews"
+        },
+        "qualifications": {
+            "last-modified-date": {
+                "value": 1574047948039
+            },
+            "affiliation-group": [
+                {
+                    "last-modified-date": {
+                        "value": 1574047948039
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "qualification-summary": {
+                                "created-date": {
+                                    "value": 1574047948039
+                                },
+                                "last-modified-date": {
+                                    "value": 1574047948039
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0003-3202-2178",
+                                        "path": "0000-0003-3202-2178",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Matthew Landry"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9146472,
+                                "department-name": "Chemistry",
+                                "role-title": "graduate student",
+                                "start-date": null,
+                                "end-date": null,
+                                "organization": {
+                                    "name": "Stanford University",
+                                    "address": {
+                                        "city": "Stanford",
+                                        "region": "California",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "grid.168010.e",
+                                        "disambiguation-source": "GRID"
+                                    }
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0003-3202-2178/qualification/9146472"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1574047891564
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "summaries": [
+                        {
+                            "qualification-summary": {
+                                "created-date": {
+                                    "value": 1574047891564
+                                },
+                                "last-modified-date": {
+                                    "value": 1574047891564
+                                },
+                                "source": {
+                                    "source-orcid": {
+                                        "uri": "https://orcid.org/0000-0003-3202-2178",
+                                        "path": "0000-0003-3202-2178",
+                                        "host": "orcid.org"
+                                    },
+                                    "source-client-id": null,
+                                    "source-name": {
+                                        "value": "Matthew Landry"
+                                    },
+                                    "assertion-origin-orcid": null,
+                                    "assertion-origin-client-id": null,
+                                    "assertion-origin-name": null
+                                },
+                                "put-code": 9146467,
+                                "department-name": "Chemistry",
+                                "role-title": "undergraduate",
+                                "start-date": null,
+                                "end-date": null,
+                                "organization": {
+                                    "name": "Princeton University",
+                                    "address": {
+                                        "city": "Princeton",
+                                        "region": "New Jersey",
+                                        "country": "US"
+                                    },
+                                    "disambiguated-organization": {
+                                        "disambiguated-organization-identifier": "grid.16750.35",
+                                        "disambiguation-source": "GRID"
+                                    }
+                                },
+                                "url": null,
+                                "external-ids": null,
+                                "display-index": "1",
+                                "visibility": "public",
+                                "path": "/0000-0003-3202-2178/qualification/9146467"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0003-3202-2178/qualifications"
+        },
+        "research-resources": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-3202-2178/research-resources"
+        },
+        "services": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0000-0003-3202-2178/services"
+        },
+        "works": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-3202-2178/works"
+        },
+        "path": "/0000-0003-3202-2178/activities"
+    },
+    "path": "/0000-0003-3202-2178"
+}
