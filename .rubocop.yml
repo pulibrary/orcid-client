@@ -17,12 +17,14 @@ Style/StringLiterals:
   EnforcedStyle: double_quotes
 Style/IfUnlessModifier:
   Enabled: false
+RSpec/ExampleLength:
+  Enabled: false
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
+Metrics/ClassLength:
+  Exclude:
+    - 'app/services/orcid_api/query.rb'
 Metrics/LineLength:
   Exclude:
     - 'spec/services/orcid_api/query_spec.rb'
-RSpec/ExampleLength:
-  Exclude:
-    - 'spec/services/report_spec.rb'

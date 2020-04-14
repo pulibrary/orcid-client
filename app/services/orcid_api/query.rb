@@ -7,6 +7,10 @@ module OrcidApi
       new.fetch_record(orcid)
     end
 
+    def self.search_person(given_name: nil, family_name: nil, email: nil)
+      new.search_person(given_name: given_name, family_name: family_name, email: email)
+    end
+
     def self.institution(affiliation: nil, grid: nil, ringgold: nil)
       new(affiliation: affiliation, grid: grid, ringgold: ringgold).search_institution
     end
@@ -33,24 +37,66 @@ module OrcidApi
       @ringgold = ringgold || "6740"
     end
 
+    # @return [RecordV30]
+    def search_person(given_name: nil, family_name: nil, email: nil)
+      results = search_email(email)
+      return results unless results.empty?
+      search_name(given_name, family_name)
+    end
+
+    def search_email(email)
+      return [] unless email
+      fielded_search(
+        fields: {
+          "email" => email
+        }
+      )
+    end
+
     def search_institution
       fielded_search(
-        "affiliation-org-name" => affiliation,
-        "grid-org-id" => grid,
-        "ringgold-org-id" => ringgold
+        fields: {
+          "affiliation-org-name" => affiliation,
+          "grid-org-id" => grid,
+          "ringgold-org-id" => ringgold
+        }
+      )
+    end
+
+    def search_name(given_name, family_name)
+      return [] unless given_name && family_name
+      fielded_search(
+        operator: "AND",
+        fields: {
+          "affiliation-org-name" => affiliation,
+          "given-names" => given_name,
+          "family-name" => family_name
+        }
       )
     end
 
     def search_affiliation
-      fielded_search("affiliation-org-name" => affiliation)
+      fielded_search(
+        fields: {
+          "affiliation-org-name" => affiliation
+        }
+      )
     end
 
     def search_grid
-      fielded_search("grid-org-id" => grid)
+      fielded_search(
+        fields: {
+          "grid-org-id" => grid
+        }
+      )
     end
 
     def search_ringgold
-      fielded_search("ringgold-org-id" => ringgold)
+      fielded_search(
+        fields: {
+          "ringgold-org-id" => ringgold
+        }
+      )
     end
 
     def fetch_record(orcid)
@@ -64,13 +110,13 @@ module OrcidApi
       end
 
       # rubocop:disable Metrics/MethodLength
-      def fielded_search(fields)
+      def fielded_search(operator: "OR", fields:)
         results = []
         start = 0
 
         loop do
           opts = {
-            q: fielded_query(fields),
+            q: fielded_query(operator: operator, fields: fields),
             rows: PAGE_SIZE,
             start: start
           }
@@ -87,10 +133,10 @@ module OrcidApi
       end
       # rubocop:enable Metrics/MethodLength
 
-      def fielded_query(fields)
+      def fielded_query(operator:, fields:)
         fields.to_a.map do |tuple|
           "#{tuple.first}:(\"#{tuple.last}\")"
-        end.join(" OR ")
+        end.join(" #{operator} ")
       end
   end
 end
