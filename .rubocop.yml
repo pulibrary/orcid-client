@@ -22,6 +22,9 @@ RSpec/ExampleLength:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
+Metrics/ClassLength:
+  Exclude:
+    - 'app/services/orcid_api/query.rb'
 Metrics/LineLength:
   Exclude:
     - 'spec/services/orcid_api/query_spec.rb'
