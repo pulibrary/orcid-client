@@ -16,9 +16,10 @@ class CsvReader
   end
 
   private
+
   def strip_initials(name)
-    name.split()
-      .select { |x| x.chomp('.').length > 1 }
-      .join(' ')
+    name.split
+        .select { |x| x.chomp('.').length > 1 }
+        .join(' ')
   end
 end
