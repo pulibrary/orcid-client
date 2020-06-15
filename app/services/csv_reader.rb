@@ -15,7 +15,7 @@ class CsvReader
     end
   end
 
-  private
+private
 
   def strip_initials(name)
     name.split.select { |x| x.chomp(".").length > 1 }.join(" ")
