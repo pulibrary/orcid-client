@@ -11,7 +11,13 @@ class CsvReader
 
   def people
     CSV.read(in_path, headers: true).map do |row|
-      Person.new(row[1], row[2], row[0])
+      Person.new(strip_initials(row[1]), strip_initials(row[2]), row[0])
     end
+  end
+
+private
+
+  def strip_initials(name)
+    name.split.select { |x| x.chomp(".").length > 1 }.join(" ")
   end
 end
