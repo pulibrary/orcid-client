@@ -15,7 +15,7 @@ class Report
 
   # rubocop:disable Metrics/MethodLength
   def csv
-    records.map! { |record| CsvDecorator.new(record: record) }
+    records.map! { |record| CsvRecordPresenter.new(record: record) }
     CSV.open(out_path, "wb") do |csv|
       csv << field_list
       records.each do |record|
@@ -35,7 +35,7 @@ class Report
   end
   # rubocop:enable Metrics/MethodLength
 
-  class CsvDecorator
+  class CsvRecordPresenter
     attr_reader :record
     def initialize(record:)
       @record = record

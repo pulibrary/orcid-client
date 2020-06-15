@@ -31,10 +31,10 @@ RSpec.describe Report do
 
     context "when there's an error" do
       let(:records) { [load_record_fixture("record_empty.json")] }
-      let(:decorator) { instance_double(Report::CsvDecorator) }
+      let(:decorator) { instance_double(Report::CsvRecordPresenter) }
       let(:logger) { instance_double(Logger) }
       before do
-        allow(Report::CsvDecorator).to receive(:new).and_return(decorator)
+        allow(Report::CsvRecordPresenter).to receive(:new).and_return(decorator)
         allow(decorator).to receive(:given_name).and_raise(StandardError, "test_error")
         allow(decorator).to receive(:orcid).and_return("test_orcid")
         allow(logger).to receive(:error)
@@ -49,12 +49,12 @@ RSpec.describe Report do
     end
   end
 
-  describe "Report::CsvDecorator" do
+  describe "Report::CsvRecordPresenter" do
     let(:filename) { "record.json" }
     let(:record) do
       load_record_fixture(filename)
     end
-    let(:decorator) { Report::CsvDecorator.new(record: record) }
+    let(:decorator) { Report::CsvRecordPresenter.new(record: record) }
 
     it "provides access methods for the fields we want" do
       expect(decorator.orcid).to eq "0000-0001-9489-0750"
