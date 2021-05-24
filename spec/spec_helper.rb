@@ -2,6 +2,9 @@
 require "simplecov"
 require "swagger_client"
 require "webmock/rspec"
+require "coveralls"
+
+Coveralls.wear!
 
 SimpleCov.start do
   add_group "OrcidAPI", "lib"

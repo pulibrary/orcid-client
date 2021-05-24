@@ -37,7 +37,7 @@ jobs:
           at: '~/orcid'
       - run: gem install bundler -v '~> 2.0'
       - run: bundle install --path vendor/bundle
-      - run: bundle exec rspec spec/
+      - run: COVERALLS_REPO_TOKEN=qIg5szxntu4y5gJCfWMJHk7WCbocpqp7e bundle exec rspec spec/
       - run:
           name: Stash Coverage Results
           command: |

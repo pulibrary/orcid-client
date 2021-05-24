@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/pulibrary/orcid-client/badge.svg?branch=main)](https://coveralls.io/github/pulibrary/orcid-client?branch=main)
+
 # README
 
 A ruby client for searching orcid records. It's set up as a rails app in
